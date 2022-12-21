@@ -9,6 +9,7 @@ from nonebot.internal.adapter import Bot as BaseBot
 from nonebot.adapters.onebot.v11 import (
     Bot,
     Message,
+    Event,
     MessageEvent,
     GroupMessageEvent,
     GroupRecallNoticeEvent,
@@ -31,6 +32,23 @@ enablelist = (
 
 def save_enablelist() -> None:
     file_path.write_text(json.dumps(enablelist), encoding='utf-8')
+
+bypass_admin_list_path = Path() / 'data' / 'enablelist' / 'bypass_admin.json'
+bypass_admin_list_path.parent.mkdir(parents = True, exist_ok = True)
+
+bypass_admin_list = (
+    json.loads(bypass_admin_list_path.read_text('utf-8'))
+    if bypass_admin_list_path.is_file()
+    else {}
+)
+
+def save_bypass_admin_list() -> None:
+    bypass_admin_list_path.write_text(json.dumps(bypass_admin_list), encoding='utf-8')
+
+def testfor_bypass_admin_list(gid) -> bool:
+    if gid in bypass_admin_list.keys():
+        return True
+    return False
 
 def is_number(s: str) -> bool:
     try:
@@ -112,6 +130,23 @@ async def del_group_(event: GroupMessageEvent):
     handle_enablelist([f'{event.group_id}'], 'del', 'grouplist')
     await del_group.finish('噢不,我管不着你们的聊天了...')
 
+
+enable_bypass_admin = on_command('开启绕过管理层', aliases = {'bypass here'}, permission = SUPERUSER | GROUP_OWNER, block = True)
+
+@enable_bypass_admin.handle()
+async def enable_bypass_admin_(event: GroupMessageEvent):
+    bypass_admin_list[str(event.group_id)] = True
+    save_bypass_admin_list()
+    await add_group.finish('本群管理层不怕防撤回了...真不公平')
+
+disable_bypass_admin = on_command('关闭绕过管理层', aliases = {'no bypass here'}, permission = SUPERUSER | GROUP_OWNER, block = True)
+
+@disable_bypass_admin.handle()
+async def disable_bypass_admin_(event: GroupMessageEvent):
+    bypass_admin_list[str(event.group_id)] = False
+    save_bypass_admin_list()
+    await add_group.finish('本群管理层也会防撤回...挺公平的...')
+
 reset_enablelist = on_command('重置开启名单', aliases = {'清空开启名单'}, permission = SUPERUSER, priority = 1, block = True)
 
 @reset_enablelist.got('flag', prompt='确定重置开启名单? (Y/n)')
@@ -124,7 +159,7 @@ async def reset_list(flag: str = ArgStr('flag')):
     else:
         await reset_enablelist.finish('操作已取消')
 
-recall = on_notice()
+recall = on_notice(block = True)
 
 @recall.handle()
 
@@ -132,10 +167,25 @@ async def recall_handle(bot:Bot, event: GroupRecallNoticeEvent):
     if str(event.user_id) != str(bot.self_id):
         mid = event.message_id
         gid = event.group_id
+        uid = event.user_id
         tid = datetime.datetime.fromtimestamp(event.time)
         time = tid.strftime('%Y-%m-%d %H:%M:%S')
-        await recall.send(str(enablelist['grouplist']))
+        # await recall.send(str(enablelist['grouplist']))
         response = await bot.get_msg(message_id = mid)
-        if gid in enablelist['grouplist']:
+        if str(gid) in enablelist['grouplist']:
             # await bot.send_group_msg(group_id = gid, message = time + '\n触发反撤回功能')
-            await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
+            if testfor_bypass_admin_list(str(gid)) and bypass_admin_list[str(gid)]:
+                info = await bot.get_group_member_info(group_id = gid, user_id = uid)
+                if info['role'] == 'member':
+                    await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
+                else:
+                    logger.debug('忽略管理层消息成功')
+            else:
+                await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
+
+use_help = on_command('防撤回管理', aliases = {'防撤回菜单', 'anti recall menu'}, priority=50, block = True)
+
+@use_help.handle()
+
+async def use_help_handle(bot: Bot, event: Event):
+    await use_help.send('开启/添加防撤回, enable\n关闭/删除防撤回, disable\n查看防撤回群聊\n开启/添加当前/本群防撤回, enable here\n关闭/删除当前/本群防撤回, disable here\n重置/清空开启名单\n开启/关闭绕过管理层, bypass/no bypass here')
