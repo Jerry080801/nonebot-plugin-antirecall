@@ -4,6 +4,7 @@ from typing import Any, Dict, List, Tuple, Optional
 from nonebot.plugin import PluginMetadata
 from nonebot.permission import SUPERUSER
 from nonebot import get_driver, on_command, on_notice
+from nonebot import on_command, on_fullmatch, on_keyword, on_message
 from nonebot.log import logger
 from nonebot.internal.adapter import Bot as BaseBot
 from nonebot.adapters.onebot.v11 import (
@@ -13,6 +14,7 @@ from nonebot.adapters.onebot.v11 import (
     MessageEvent,
     GroupMessageEvent,
     GroupRecallNoticeEvent,
+    PrivateMessageEvent,
 )
 from nonebot.adapters.onebot.v11.permission import GROUP_ADMIN, GROUP_OWNER, GROUP_MEMBER
 from nonebot.params import Command, CommandArg, RawCommand, ArgStr
@@ -49,6 +51,18 @@ def testfor_bypass_admin_list(gid) -> bool:
     if gid in bypass_admin_list.keys():
         return True
     return False
+
+private_msg_list_path = Path() / 'data' / 'enablelist' / 'private_msg_list.json'
+private_msg_list_path.parent.mkdir(parents = True, exist_ok = True)
+
+private_msg_list = (
+    json.loads(private_msg_list_path.read_text('utf-8'))
+    if private_msg_list_path.is_file()
+    else {}
+)
+
+def save_private_msg_list() -> None:
+    private_msg_list_path.write_text(json.dumps(private_msg_list), encoding='utf-8')
 
 def is_number(s: str) -> bool:
     try:
@@ -159,7 +173,8 @@ async def reset_list(flag: str = ArgStr('flag')):
     else:
         await reset_enablelist.finish('操作已取消')
 
-recall = on_notice(block = True)
+# 主体
+recall = on_notice()
 
 @recall.handle()
 
@@ -178,14 +193,67 @@ async def recall_handle(bot:Bot, event: GroupRecallNoticeEvent):
                 info = await bot.get_group_member_info(group_id = gid, user_id = uid)
                 if info['role'] == 'member':
                     await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
+                    if str(gid) in private_msg_list.keys():
+                        for i in private_msg_list[str(gid)]:
+                            group_info = await bot.get_group_info(group_id = gid)
+                            await bot.send_private_msg(user_id = int(i), message = time + '\n' + group_info['group_name'] + '(' + str(gid) + ') 内 ' + info['nickname'] + '(' + str(uid) + ') 撤回消息如下:' )
+                            await bot.send_private_msg(user_id = int(i), message = response['message'], auto_escape = False)
                 else:
                     logger.debug('忽略管理层消息成功')
             else:
                 await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
+                if str(gid) in private_msg_list.keys():
+                    for i in private_msg_list[str(gid)]:
+                        group_info = await bot.get_group_info(group_id = gid)
+                        await bot.send_private_msg(user_id = int(i), message = time + '\n' + group_info['group_name'] + '(' + str(gid) + ') 内 ' + info['nickname'] + '(' + str(uid) + ') 撤回消息如下:' )
+                        await bot.send_private_msg(user_id = int(i), message = response['message'], auto_escape = False)
 
 use_help = on_command('防撤回管理', aliases = {'防撤回菜单', 'anti recall menu'}, priority=50, block = True)
 
 @use_help.handle()
 
 async def use_help_handle(bot: Bot, event: Event):
-    await use_help.send('开启/添加防撤回, enable\n关闭/删除防撤回, disable\n查看防撤回群聊\n开启/添加当前/本群防撤回, enable here\n关闭/删除当前/本群防撤回, disable here\n重置/清空开启名单\n开启/关闭绕过管理层, bypass/no bypass here')
+    await use_help.send('开启/添加防撤回, enable\n关闭/删除防撤回, disable\n查看防撤回群聊\n开启/添加当前/本群防撤回, enable here\n关闭/删除当前/本群防撤回, disable here\n重置/清空开启名单\n开启/关闭绕过管理层, bypass/no bypass here\n开启/关闭防撤回私聊[gid] [qq] : 私聊使用,仅限一个群号和一个私聊的qq\n查看防撤回私聊, list private msg : 私聊使用,返回一个json数据\n不建议使用私聊,容易风控')
+
+enable_private_msg = on_command('开启防撤回私聊', aliases = {'enable private msg', '启用防撤回私聊'}, permission = SUPERUSER, priority = 1, block = True)
+
+@enable_private_msg.handle()
+
+async def enable_private_msg_handle(bot: Bot, event: PrivateMessageEvent, arg: Message = CommandArg()):
+    #try:
+    data = arg.extract_plain_text().strip().split(' ')
+    if data[0] in private_msg_list.keys():
+        private_msg_list[data[0]].append(data[1])
+        save_private_msg_list()
+        await enable_private_msg.send('操作成功!')
+    else:
+        private_msg_list[data[0]] = []
+        private_msg_list[data[0]].append(data[1])
+        await enable_private_msg.send('操作成功!')
+        save_private_msg_list()
+
+disable_private_msg = on_command('关闭防撤回私聊', aliases = {'disable private msg', '停用防撤回私聊'}, permission = SUPERUSER, priority = 1, block = True)
+
+@disable_private_msg.handle()
+
+async def disable_private_msg_handle(bot: Bot, event: PrivateMessageEvent, arg: Message = CommandArg()):
+    #try:
+    data = arg.extract_plain_text().strip().split(' ')
+    try:
+        private_msg_list[data[0]].remove(data[1])
+        save_private_msg_list()
+        await enable_private_msg.send('操作成功!')
+    except:
+        await enable_private_msg.send('你好像没有启用该qq群/qq的防撤回私聊,你没启用干嘛要关闭?')
+
+    #except:
+     #   await enable_private_msg.send('命令参数错误,正确应该是:开启防撤回私聊[群号] [要私聊的QQ]')
+    # await enable_private_msg.send(str(data))
+
+
+view_private_msg = on_command('查看防撤回私聊', aliases = {'list private msg'}, permission = SUPERUSER, priority = 1, block = True)
+
+@view_private_msg.handle()
+
+async def view_private_msg_handle(bot: Bot, event: PrivateMessageEvent):
+    await view_private_msg.send(str(private_msg_list))
