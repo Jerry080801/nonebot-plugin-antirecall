@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_antirecall"
-version = "0.1.3"
+version = "0.1.4"
 description = "Anti-recall plugin for QQbot in Nonebot2"
 authors = ["Jerry <jerry080801@icloud.com>"]
 license = "MIT"

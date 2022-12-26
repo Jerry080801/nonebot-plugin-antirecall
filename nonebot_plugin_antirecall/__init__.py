@@ -183,6 +183,7 @@ async def recall_handle(bot:Bot, event: GroupRecallNoticeEvent):
         mid = event.message_id
         gid = event.group_id
         uid = event.user_id
+        oid = event.operator_id
         tid = datetime.datetime.fromtimestamp(event.time)
         time = tid.strftime('%Y-%m-%d %H:%M:%S')
         # await recall.send(str(enablelist['grouplist']))
@@ -198,7 +199,7 @@ async def recall_handle(bot:Bot, event: GroupRecallNoticeEvent):
         if str(gid) in enablelist['grouplist']:
             # await bot.send_group_msg(group_id = gid, message = time + '\n触发反撤回功能')
             if testfor_bypass_admin_list(str(gid)) and bypass_admin_list[str(gid)]:
-                if info['role'] == 'member':
+                if (info['role'] == 'member') and uid == oid:
                     await bot.send_group_msg(group_id = gid, message = response['message'], auto_escape = False)
                     if str(gid) in private_msg_list.keys():
                         for i in private_msg_list[str(gid)]:
