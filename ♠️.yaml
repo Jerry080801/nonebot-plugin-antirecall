@@ -116,22 +116,22 @@ proxies:
     }
   - {
       name: 🇺🇸1SJC,
-      server: fzzzzz.bkpsychology.com,
-      port: 25565,
+      server: 120.204.94.120,
+      port: 11144,
       client-fingerprint: chrome,
       type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
+      cipher: aes-256-cfb,
+      password: flyzy2005.com,
       tfo: false,
     }
   - {
       name: 🇺🇸2SEA,
-      server: relay_hk.ccf.rip,
-      port: 14700,
+      server: bj.ccf.rip,
+      port: 33777,
       client-fingerprint: chrome,
       type: ss,
-      cipher: chacha20-ietf-poly1305,
-      password: IAKIOI,
+      cipher: aes-256-cfb,
+      password: flyzy2005.com
     }
   - {
       name: 🇺🇸3LAX,
@@ -165,6 +165,8 @@ proxies:
       ws-opts: { path: "/kyoma?ed=2048", headers: { Host: hma.keylol.link } },
       udp: true,
     }
+  - {name: 🇷🇴 罗马尼亚, server: 112.35.192.136, port: 11186, type: ss, cipher: aes-256-gcm, password: dQwlmy3fgvQvk8jN4woGNaQ8p6H3CWk1jVakfD6NN4s3}
+  - {name: 🇻🇳 越南, server: 112.35.192.136, port: 18464, type: ss, cipher: aes-256-gcm, password: tnsJbmnwupOj3kviEII3YLzQ1USxX5L36xPneudQQ26t}
 
 proxy-groups:
   - name: 🔰 节点选择
