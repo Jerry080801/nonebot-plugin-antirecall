@@ -158,15 +158,6 @@ proxies:
       password: IAKIOI,
     }
   - {
-      name: 🇺🇸LAX-2,
-      server: zzrelay.ccf.rip,
-      port: 20265,
-      client-fingerprint: chrome,
-      type: ss,
-      cipher: chacha20-ietf-poly1305,
-      password: IAKIOI,
-    }
-  - {
       name: 🇺🇸SEA,
       server: gzrelay.ccf.rip,
       port: 14700,
@@ -195,7 +186,6 @@ proxy-groups:
       - 🇭🇰-6
       - 🇺🇸SV
       - 🇺🇸LAX-1
-      - 🇺🇸LAX-2
       - 🇺🇸SEA
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -217,7 +207,6 @@ proxy-groups:
       - 🇭🇰-5
       - 🇺🇸SV
       - 🇺🇸LAX-1
-      - 🇺🇸LAX-2
       - 🇺🇸SEA
 
   - name: 🎥 NETFLIX
