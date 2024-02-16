@@ -6,31 +6,29 @@ log-level: info
 external-controller: :9090
 proxies:
     - {
-          name: 镇江移动->🇯🇵,
-          server: zzrelay.ccf.rip,
-          port: 29742,
-          type: ss,
-          cipher: chacha20-ietf-poly1305,
-          password: IAKIOI,
-          udp: true,
-          description: pfgo.doves.top,
-      }
-    - {
-          name: 镇江移动->AWS🇯🇵,
-          server: zzrelay.ccf.rip,
-          port: 12345,
-          type: ss,
-          cipher: chacha20-ietf-poly1305,
-          password: IAKIOI,
-          udp: true,
-          description: pfgo.doves.top,
-      }
-    - {
           name: 上海移动->🇯🇵,
           server: shrelay.ccf.rip,
           port: 13631,
           type: ss,
-          cipher: chacha20-ietf-poly1305,
+          cipher: aes-128-gcm,
+          password: IAKIOI,
+          udp: true,
+      }
+    - {
+          name: 上海移动->GG🇯🇵,
+          server: ah.chuzuyong.xyz,
+          port: 20050,
+          type: ss,
+          cipher: aes-128-gcm,
+          password: IAKIOI,
+          udp: true,
+      }
+    - {
+          name: 上海移动->GG🇯🇵2,
+          server: ah.chuzuyong.xyz,
+          port: 20020,
+          type: ss,
+          cipher: aes-128-gcm,
           password: IAKIOI,
           udp: true,
       }
@@ -39,7 +37,17 @@ proxies:
           server: shrelay.ccf.rip,
           port: 45500,
           type: ss,
-          cipher: chacha20-ietf-poly1305,
+          cipher: aes-128-gcm,
+          password: IAKIOI,
+          udp: true,
+          description: niuniu.bkpsychology.com(fuzzpn),
+      }
+    - {
+          name: 上海移动->VM🇯🇵,
+          server: ah.chuzuyong.xyz,
+          port: 20040,
+          type: ss,
+          cipher: aes-128-gcm,
           password: IAKIOI,
           udp: true,
           description: niuniu.bkpsychology.com(fuzzpn),
@@ -49,7 +57,7 @@ proxies:
           server: jp.ccf.rip,
           port: 12346,
           type: ss,
-          cipher: chacha20-ietf-poly1305,
+          cipher: aes-128-gcm,
           password: IAKIOI,
           udp: true,
       }
@@ -58,23 +66,12 @@ proxies:
           server: 36.150.185.33,
           port: 52798,
           type: ss,
-          cipher: chacha20-ietf-poly1305,
-          password: IAKIOI,
-          udp: true,
-      }
-    - {
-          name: 镇江移动->🇭🇰,
-          server: zzrelay.ccf.rip,
-          port: 28016,
-          type: ss,
           cipher: aes-128-gcm,
           password: IAKIOI,
           udp: true,
-          tfo: false,
-          description: pfgo.doves.top,
       }
     - {
-          name: 上海移动->🇭🇰,
+          name: 上海移动->GG🇭🇰,
           server: shrelay.ccf.rip,
           port: 12345,
           type: ss,
@@ -85,7 +82,7 @@ proxies:
           description: niuniu.bkpsychology.com(fuzzpn),
       }
     - {
-          name: 广州移动->🇭🇰(IPV6),
+          name: 广州移动->GG🇭🇰(IPV6),
           server: 2409:8C54:1011:b::483:e078,
           port: 12345,
           type: ss,
@@ -96,7 +93,7 @@ proxies:
           description: niuniu.bkpsychology.com(fuzzpn),
       }
     - {
-          name: 广州移动->🇭🇰(IPV46),
+          name: 广州移动->GG🇭🇰(IPV46),
           server: as.chuzuyong.xyz,
           port: 12345,
           type: ss,
@@ -108,7 +105,7 @@ proxies:
       }
     - {
           name: 广州移动->DO🇸🇬(IPV46),
-          server: as.chuzuyong.xyz,
+          server: 218.204.179.134,
           port: 12346,
           type: ss,
           cipher: aes-256-gcm,
@@ -138,7 +135,16 @@ proxies:
     - {
           name: 上海移动->AK🇺🇸LAX,
           server: ah.chuzuyong.xyz,
-          port: 12351,
+          port: 14783,
+          client-fingerprint: chrome,
+          type: ss,
+          cipher: aes-256-gcm,
+          password: IAKIOI,
+      }
+    - {
+          name: 上海移动->LN🇺🇸LAX,
+          server: ah.chuzuyong.xyz,
+          port: 25139,
           client-fingerprint: chrome,
           type: ss,
           cipher: aes-256-gcm,
@@ -163,7 +169,7 @@ proxies:
           password: IAKIOI,
       }
     - {
-          name: 上海移动->🇬🇧(IPV46),
+          name: 上海移动->🇬🇧,
           server: ah.chuzuyong.xyz,
           port: 24238,
           type: ss,
@@ -178,23 +184,23 @@ proxy-groups:
     - name: 🔰 节点选择
       type: select
       proxies:
-          - 镇江移动->🇯🇵
-          - 镇江移动->AWS🇯🇵
           - 上海移动->🇯🇵
+          - 上海移动->GG🇯🇵
+          - 上海移动->GG🇯🇵2
           - 上海移动->AWS🇯🇵
           - 🇯🇵(电信Only)
           - 🇯🇵(Stable)
-          - 镇江移动->🇭🇰
-          - 上海移动->🇭🇰
-          - 广州移动->🇭🇰(IPV6)
-          - 广州移动->🇭🇰(IPV46)
+          - 上海移动->GG🇭🇰
+          - 广州移动->GG🇭🇰(IPV6)
+          - 广州移动->GG🇭🇰(IPV46)
           - 广州移动->DO🇸🇬(IPV46)
           - 上海移动->DO🇺🇸SF(GPT)
           - 上海移动->RN🇺🇸LAX(GPT)
           - 上海移动->AK🇺🇸LAX
+          - 上海移动->LN🇺🇸LAX
           - 上海移动->DO🇺🇸NYC(GPT)
           - 上海移动->RN🇺🇸CHI
-          - 上海移动->🇬🇧(IPV46)
+          - 上海移动->🇬🇧
           - ♻️ 自动选择
           - 🎯 全球直连
     - name: ♻️ 自动选择
@@ -202,23 +208,23 @@ proxy-groups:
       url: http://www.gstatic.com/generate_204
       interval: 300
       proxies:
-          - 镇江移动->🇯🇵
-          - 镇江移动->AWS🇯🇵
           - 上海移动->🇯🇵
+          - 上海移动->GG🇯🇵
+          - 上海移动->GG🇯🇵2
           - 上海移动->AWS🇯🇵
           - 🇯🇵(电信Only)
           - 🇯🇵(Stable)
-          - 镇江移动->🇭🇰
-          - 上海移动->🇭🇰
-          - 广州移动->🇭🇰(IPV6)
-          - 广州移动->🇭🇰(IPV46)
+          - 上海移动->GG🇭🇰
+          - 广州移动->GG🇭🇰(IPV6)
+          - 广州移动->GG🇭🇰(IPV46)
           - 广州移动->DO🇸🇬(IPV46)
           - 上海移动->DO🇺🇸SF(GPT)
           - 上海移动->RN🇺🇸LAX(GPT)
           - 上海移动->AK🇺🇸LAX
+          - 上海移动->LN🇺🇸LAX
           - 上海移动->DO🇺🇸NYC(GPT)
           - 上海移动->RN🇺🇸CHI
-          - 上海移动->🇬🇧(IPV46)
+          - 上海移动->🇬🇧
 
     - name: 🎥 NETFLIX
       type: select
@@ -252,11 +258,45 @@ proxy-groups:
     - name: Ⓜ️ 微软服务
       type: select
       proxies:
+          - 上海移动->🇯🇵
+          - 上海移动->GG🇯🇵
+          - 上海移动->GG🇯🇵2
+          - 上海移动->AWS🇯🇵
+          - 🇯🇵(电信Only)
+          - 🇯🇵(Stable)
+          - 上海移动->GG🇭🇰
+          - 广州移动->GG🇭🇰(IPV6)
+          - 广州移动->GG🇭🇰(IPV46)
+          - 广州移动->DO🇸🇬(IPV46)
+          - 上海移动->DO🇺🇸SF(GPT)
+          - 上海移动->RN🇺🇸LAX(GPT)
+          - 上海移动->AK🇺🇸LAX
+          - 上海移动->LN🇺🇸LAX
+          - 上海移动->DO🇺🇸NYC(GPT)
+          - 上海移动->RN🇺🇸CHI
+          - 上海移动->🇬🇧
           - 🎯 全球直连
           - 🔰 节点选择
     - name: 📲 电报信息
       type: select
       proxies:
+          - 上海移动->🇯🇵
+          - 上海移动->GG🇯🇵
+          - 上海移动->GG🇯🇵2
+          - 上海移动->AWS🇯🇵
+          - 🇯🇵(电信Only)
+          - 🇯🇵(Stable)
+          - 上海移动->GG🇭🇰
+          - 广州移动->GG🇭🇰(IPV6)
+          - 广州移动->GG🇭🇰(IPV46)
+          - 广州移动->DO🇸🇬(IPV46)
+          - 上海移动->DO🇺🇸SF(GPT)
+          - 上海移动->RN🇺🇸LAX(GPT)
+          - 上海移动->AK🇺🇸LAX
+          - 上海移动->LN🇺🇸LAX
+          - 上海移动->DO🇺🇸NYC(GPT)
+          - 上海移动->RN🇺🇸CHI
+          - 上海移动->🇬🇧
           - 🔰 节点选择
           - 🎯 全球直连
     - name: 🍎 苹果服务
