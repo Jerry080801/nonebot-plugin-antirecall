@@ -99,6 +99,33 @@ proxies:
       udp: true
     }
   - {
+      name: 南昌 🇯🇵,
+      server: 117.169.112.14,
+      port: 20000,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true
+    }
+  - {
+      name: 杭州 🇰🇷,
+      server: hangzhou.bkpsychology.com,
+      port: 20010,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true
+    }
+  - {
+      name: 南昌 🇭🇰,
+      server: 117.169.112.14,
+      port: 20030,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true
+    }
+  - {
       name: 杭州 🇭🇰,
       server: hangzhou.bkpsychology.com,
       port: 12345,
@@ -243,6 +270,8 @@ proxy-groups:
       - 盐城 AWS🇯🇵
       - 宁波 AWS🇯🇵
       - 测试 🇯🇵
+      - 南昌 🇯🇵
+      - 杭州 🇰🇷
   - name: 🪐 🇭🇰
     type: select
     url: http://www.gstatic.com/generate_204
@@ -257,6 +286,7 @@ proxy-groups:
       - 中山 🇭🇰
       - 广州 🇭🇰
       - 测试 🇭🇰
+      - 南昌 🇭🇰
   - name: 🪐 🇺🇸
     type: select
     url: http://www.gstatic.com/generate_204
@@ -265,7 +295,6 @@ proxy-groups:
     proxies:
       - AKLAX
       - LinodeLAX
-
   - name: ♻️ HK Automatic
     type: load-balance
     url: http://www.gstatic.com/generate_204
