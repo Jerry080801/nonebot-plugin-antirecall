@@ -6,179 +6,103 @@ log-level: info
 external-controller: :9090
 proxies:
   - {
-      name: 上海 🇯🇵,
-      server: tksh.palworld.rip,
-      port: 20050,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true,
-    }
-  - {
-      name: 上海2 🇯🇵,
-      server: tksh.palworld.rip,
+      name: 宁波 🇯🇵,
+      server: live.tikonline.live,
       port: 20020,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
-      description: tksh.palworld.rip:20020 and 20050,
-    }
-  - {
-      name: 镇江 🇯🇵,
-      server: doveszz.palworld.rip,
-      port: 12345,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true,
-      description: doveszz.palworld.rip:12345,
-    }
-  - {
-      name: 盐城 🇯🇵,
-      server: dovesyc.palworld.rip,
-      port: 12345,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true,
-      description: tksh.palworld.rip:20020 and 20050,
     }
   - {
       name: 杭州 🇯🇵,
-      server: hangzhou.bkpsychology.com,
+      server: jiangsu.bkpsychology.com,
       port: 20020,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true
-    }
-  - {
-      name: 宁波 🇯🇵,
-      server: ggb.doves.top,
-      port: 12345,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true
-    }
-  - {
-      name: 杭州 WK🇯🇵,
-      server: hangzhou.bkpsychology.com,
-      port: 20050,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
     }
+  - { name: 南昌 🇯🇵, server: 117.169.112.14, port: 20000, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true }
   - {
       name: 杭州 AWS🇯🇵,
-      server: hangzhou.bkpsychology.com,
+      server: jiangsu.bkpsychology.com,
       port: 20030,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
-      udp: true
+      udp: true,
     }
   - {
-      name: 宁波 AWS🇯🇵,
-      server: ggb.doves.top,
-      port: 20020,
+      name: (备用) 上海 🇯🇵,
+      server: sh-lskdjfoiw.bijia.me,
+      port: 20200,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
-      udp: true
+      udp: true,
     }
   - {
-      name: 盐城 AWS🇯🇵,
-      server: dovesyc.palworld.rip,
-      port: 20020,
+      name: (备用) 宁波 🇯🇵,
+      server: 120-199-84-180.sslip.io,
+      port: 12345,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
-      udp: true
+      udp: true,
     }
-  - {
-      name: 南昌 🇯🇵,
-      server: 117.169.112.14,
-      port: 20000,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true
-    }
+
   - {
       name: 杭州 🇰🇷,
-      server: hangzhou.bkpsychology.com,
+      server: jiangsu.bkpsychology.com,
       port: 20010,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
-      udp: true
+      udp: true,
     }
   - {
-      name: 南昌 🇭🇰,
-      server: 117.169.112.14,
-      port: 20030,
+      name: 广州 🇰🇷,
+      server: video.tikonline.live,
+      port: 25565,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
-      udp: true
+      udp: true,
     }
   - {
+      name: Oracle 🇰🇷,
+      server: oracleKR.palworld.rip,
+      port: 12345,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+    }
+  - { name: 南昌 🇭🇰, server: 117.169.112.14, port: 20030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true }
+  - {
       name: 杭州 🇭🇰,
-      server: hangzhou.bkpsychology.com,
+      server: jiangsu.bkpsychology.com,
       port: 12345,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
       tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
     }
   - {
-      name: 镇江 🇭🇰,
-      server: doveszz.palworld.rip,
-      port: 20020,
+      name: 宁波 🇭🇰,
+      server: live.tikonline.live,
+      port: 34684,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
       tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
     }
   - {
-      name: 盐城 🇭🇰,
-      server: dovesyc.palworld.rip,
-      port: 36893,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true,
-      description: tksh.palworld.rip:20020 and 20050,
-    }
-  - {
-      name: AKLAX,
-      server: tksh.palworld.rip,
-      port: 14783,
-      client-fingerprint: chrome,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: IAKIOI,
-    }
-  - {
-      name: LinodeLAX,
-      server: hangzhou.bkpsychology.com,
-      port: 25139,
-      client-fingerprint: chrome,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: IAKIOI,
-      description: tksh.palworld.rip,
-    }
-  - {
-      name: 宁波 🇭🇰,
-      server: ggb.doves.top,
+      name: (备用) 宁波 🇭🇰,
+      server: 120-199-84-180.sslip.io,
       port: 12350,
       type: ss,
       cipher: aes-128-gcm,
@@ -188,51 +112,38 @@ proxies:
       description: niuniu.bkpsychology.com(fuzzpn),
     }
   - {
-      name: 深圳IPV6 🇭🇰,
-      server: gz6.palworld.rip,
+      name: (备用) 深圳 🇭🇰,
+      server: 120.241.47.184,
       port: 12345,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
       tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
-    }
-  - {
-      name: 深圳 🇭🇰,
-      server: 120.241.47.99,
-      port: 12346,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI,
-      udp: true,
-      tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
+      description: https://ny.bijia.me/,
     }
   - {
       name: 中山 🇭🇰,
       server: gzidc.bkpsychology.com,
-      port: 12345,
+      port: 33333,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
       tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
     }
   - {
-      name: 广州 🇭🇰,
-      server: eice.site,
-      port: 12350,
+      name: (备用) 广州 🇭🇰,
+      server: thecom.today,
+      port: 20080,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
       udp: true,
       tfo: false,
-      description: niuniu.bkpsychology.com(fuzzpn),
     }
   - {
-      name: 测试 🇭🇰,
+      name: (备用) 测试 🇭🇰,
       server: 112.29.200.44,
       port: 12345,
       type: ss,
@@ -243,8 +154,8 @@ proxies:
     }
   - {
       name: 测试 🇯🇵,
-      server: 117.169.112.14,
-      port: 20050,
+      server: gy-ksdjf79234l.bijia.me,
+      port: 20080,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
@@ -252,49 +163,321 @@ proxies:
       tfo: false,
     }
 
+  - {
+      name: 杭州 🇭🇰🇸🇬,
+      server: jiangsu.bkpsychology.com,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: niuniu.bkpsychology.com(fuzzpn),
+    }
+
+  - {
+      name: 中山 🇭🇰🇸🇬,
+      server: gzidc.bkpsychology.com,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: niuniu.bkpsychology.com(fuzzpn),
+    }
+
+  - {
+      name: (备用) 深圳 🇭🇰🇸🇬,
+      server: gy-ksdjf79234l.bijia.me,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: niuniu.bkpsychology.com(fuzzpn),
+    }
+
+  - {
+      name: 南昌 🇭🇰🇸🇬,
+      server: video.tikonline.live,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+
+  - {
+      name: 宁波 🇭🇰🇸🇬,
+      server: live.tikonline.live,
+      port: 25565,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: https://pfgo.chuzuyong.xyz/forward_rules,
+    }
+
+  - {
+      name: (备用) 宁波 🇭🇰🇸🇬,
+      server: 120-199-84-180.sslip.io,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: https://pfgo.chuzuyong.xyz/forward_rules,
+    }
+
+  - {
+      name: (备用) 广州 🇭🇰🇸🇬,
+      server: thecom.today,
+      port: 10020,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+
+  - {
+      name: (备用) 佛山 🇭🇰,
+      server: cmv5.pgfo.doves.top,
+      port: 12350,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+
+  - {
+      name: (备用) 佛山 🇭🇰🇸🇬,
+      server: cmv5.pgfo.doves.top,
+      port: 30030,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+
+  - {
+      name: 测试 🇺🇦,
+      server: live.tikonline.live,
+      port: 12350,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: https://pfgo.chuzuyong.xyz/forward_rules,
+    }
+  - {
+      name: 测试 🇳🇬,
+      server: 176.97.192.132,
+      port: 21121,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+      description: niuniu,
+    }
+  - {
+      name: (备用) 宁波 Frontier LAX🇺🇸,
+      server: live.tikonline.live,
+      port: 14783,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: QwuTnE9cja,
+      udp: true,
+      tfo: false,
+      description: 从20160-20164frontier,
+    }
+
+  - {
+      name: (备用) 上海 Frontier LAX🇺🇸,
+      server: sh-lskdjfoiw.bijia.me,
+      port: 20202,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: QwuTnE9cja,
+      udp: true,
+      tfo: false,
+      description: 从20160-20164frontier,
+    }
+
+  - {
+      name: 杭州 Frontier LAX🇺🇸,
+      server: jiangsu.bkpsychology.com,
+      port: 20040,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: QwuTnE9cja,
+      udp: true,
+      tfo: false,
+      description: 从20160-20164frontier,
+    }
+
+  - {
+      name: (备用) 中山 🇭🇰🇸🇬,
+      server: 218.204.179.68,
+      port: 12345,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+
+  - {
+      name: 杭州 🇦🇺,
+      server: gy-ksdjf79234l.bijia.me,
+      port: 20202,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+      tfo: false,
+    }
+  - {
+      name: 🇹🇷 土耳其_R_841,
+      server: live.tikonline.live,
+      port: 20000,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      protocol: auth_aes128_md5,
+      obfs: tls1.2_ticket_auth,
+      protocol-param: 37380:kuEqlRD1wN,
+      obfs-param: ajax.microsoft.com,
+    }
+  - {
+      name: 上海 🇬🇧,
+      server: live.tikonline.live,
+      port: 34032,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      protocol: auth_aes128_md5,
+      obfs: tls1.2_ticket_auth,
+      protocol-param: 37380:kuEqlRD1wN,
+      obfs-param: ajax.microsoft.com,
+    }
+
+  - {
+      name: 测试 🇩🇪,
+      server: sh-lskdjfoiw.bijia.me,
+      port: 41545,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      protocol: auth_aes128_md5,
+      obfs: tls1.2_ticket_auth,
+      protocol-param: 37380:kuEqlRD1wN,
+      obfs-param: ajax.microsoft.com,
+    }
+
 proxy-groups:
-  - name: 🪐 🇯🇵
+  - name: JP 🇯🇵
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - 上海 🇯🇵
-      - 上海2 🇯🇵
-      - 镇江 🇯🇵
-      - 盐城 🇯🇵
       - 杭州 🇯🇵
       - 宁波 🇯🇵
-      - 杭州 WK🇯🇵
-      - 杭州 AWS🇯🇵
-      - 盐城 AWS🇯🇵
-      - 宁波 AWS🇯🇵
-      - 测试 🇯🇵
       - 南昌 🇯🇵
+      - 杭州 AWS🇯🇵
+      - (备用) 上海 🇯🇵
+      - (备用) 宁波 🇯🇵
+
+  - name: KR 🇰🇷
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
       - 杭州 🇰🇷
-  - name: 🪐 🇭🇰
+      - 广州 🇰🇷
+      - Oracle 🇰🇷
+
+  - name: Other 🌍
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 测试 🇺🇦
+      - 测试 🇳🇬
+      - 杭州 🇦🇺
+      - 🇹🇷 土耳其_R_841
+
+  - name: EU 🇪🇺
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 测试 🇺🇦
+      - 上海 🇬🇧
+      - 🇹🇷 土耳其_R_841
+      - 测试 🇩🇪
+
+  - name: HK 🇭🇰
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
       - 杭州 🇭🇰
-      - 镇江 🇭🇰
-      - 盐城 🇭🇰
       - 宁波 🇭🇰
-      - 深圳 🇭🇰
       - 中山 🇭🇰
-      - 广州 🇭🇰
-      - 测试 🇭🇰
       - 南昌 🇭🇰
-  - name: 🪐 🇺🇸
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰
+      - (备用) 广州 🇭🇰
+      - (备用) 测试 🇭🇰
+      - (备用) 佛山 🇭🇰
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
+  - name: SG 🇸🇬
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - AKLAX
-      - LinodeLAX
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
+  - name: US 🇺🇸
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 Frontier LAX🇺🇸
+      - (备用) 宁波 Frontier LAX🇺🇸
+      - (备用) 上海 Frontier LAX🇺🇸
+
   - name: ♻️ HK Automatic
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -302,21 +485,34 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - 杭州 🇭🇰
-      - 镇江 🇭🇰
-      - 盐城 🇭🇰
       - 宁波 🇭🇰
-      - 深圳 🇭🇰
       - 中山 🇭🇰
-      - 广州 🇭🇰
-      - 测试 🇭🇰
-
+      - 南昌 🇭🇰
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰
+      - (备用) 广州 🇭🇰
+      - (备用) 测试 🇭🇰
+      - (备用) 佛山 🇭🇰
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ HK Automatic
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
+
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: ♻️ 自动选择
@@ -324,20 +520,26 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
 
   - name: 🎥 NETFLIX
     type: select
     proxies:
-
-
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -367,19 +569,27 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🎯 全球直连
       - 🔰 节点选择
   - name: 📲 电报信息
     type: select
     proxies:
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🔰 节点选择
       - 🎯 全球直连
   - name: 🍎 苹果服务
@@ -395,18 +605,25 @@ proxy-groups:
   - name: 🤖 GPT
     type: select
     proxies:
-
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
   - name: 🧭 Speedtest
     type: select
     proxies:
-      - 🪐 🇯🇵
-      - 🪐 🇭🇰
-      - 🪐 🇺🇸
       - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
   - name: 🛑 全球拦截
     type: select
     proxies:
