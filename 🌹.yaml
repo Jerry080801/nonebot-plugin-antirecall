@@ -247,7 +247,7 @@ proxies:
 
   - {
       name: (备用) 佛山 🇭🇰,
-      server: cmv5.pgfo.doves.top,
+      server: gy-ksdjf79234l.bijia.me,
       port: 12350,
       type: ss,
       cipher: aes-128-gcm,
@@ -360,8 +360,8 @@ proxies:
     }
   - {
       name: 上海 🇬🇧,
-      server: live.tikonline.live,
-      port: 34032,
+      server: sh-lskdjfoiw.bijia.me,
+      port: 10101,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
@@ -375,6 +375,19 @@ proxies:
       name: 测试 🇩🇪,
       server: sh-lskdjfoiw.bijia.me,
       port: 41545,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      protocol: auth_aes128_md5,
+      obfs: tls1.2_ticket_auth,
+      protocol-param: 37380:kuEqlRD1wN,
+      obfs-param: ajax.microsoft.com,
+    }
+
+  - {
+      name: HKT->HK🇭🇰,
+      server: 112.120.244.1,
+      port: 50020,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI,
@@ -453,6 +466,7 @@ proxy-groups:
       - (备用) 广州 🇭🇰🇸🇬
       - (备用) 佛山 🇭🇰🇸🇬
       - (备用) 中山 🇭🇰🇸🇬
+      - HKT->HK🇭🇰
   - name: SG 🇸🇬
     type: select
     url: http://www.gstatic.com/generate_204
