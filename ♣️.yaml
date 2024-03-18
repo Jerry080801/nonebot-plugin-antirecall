@@ -5,21 +5,149 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+
   - {
-      name: 🇯🇵5,
-      server: bj.ccf.rip,
-      port: 11186,
+      name: (备用) 宁波 Frontier LAX🇺🇸,
+      server: frontier.palworld.rip,
+      port: 20160,
       type: ss,
-      cipher: chacha20-ietf-poly1305,
-      password: IAKIOI,
+      cipher: aes-128-gcm,
+      password: QwuTnE9cja,
       udp: true,
+      tfo: false,
+      description: 从20160-20164frontier,
     }
+
+
 proxy-groups:
+  - name: JP 🇯🇵
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 🇯🇵
+      - 宁波 🇯🇵
+      - 南昌 🇯🇵
+      - 杭州 AWS🇯🇵
+      - (备用) 上海 🇯🇵
+      - (备用) 宁波 🇯🇵
+
+  - name: KR 🇰🇷
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 🇰🇷
+      - 广州 🇰🇷
+      - Oracle 🇰🇷
+
+  - name: Other 🌍
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 测试 🇺🇦
+      - 测试 🇳🇬
+      - 杭州 🇦🇺
+      - 🇹🇷 土耳其_R_841
+
+  - name: EU 🇪🇺
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 测试 🇺🇦
+      - 上海 🇬🇧
+      - 🇹🇷 土耳其_R_841
+      - 测试 🇩🇪
+
+  - name: HK 🇭🇰
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 🇭🇰
+      - 宁波 🇭🇰
+      - 中山 🇭🇰
+      - 南昌 🇭🇰
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰
+      - (备用) 广州 🇭🇰
+      - (备用) 测试 🇭🇰
+      - (备用) 佛山 🇭🇰
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
+      - HKT->HK🇭🇰
+  - name: SG 🇸🇬
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
+  - name: US 🇺🇸
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 Frontier LAX🇺🇸
+      - (备用) 宁波 Frontier LAX🇺🇸
+      - (备用) 上海 Frontier LAX🇺🇸
+
+  - name: ♻️ HK Automatic
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+    strategy: round-robin
+    proxies:
+      - 杭州 🇭🇰
+      - 宁波 🇭🇰
+      - 中山 🇭🇰
+      - 南昌 🇭🇰
+      - 杭州 🇭🇰🇸🇬
+      - 中山 🇭🇰🇸🇬
+      - 南昌 🇭🇰🇸🇬
+      - 宁波 🇭🇰🇸🇬
+      - (备用) 深圳 🇭🇰
+      - (备用) 广州 🇭🇰
+      - (备用) 测试 🇭🇰
+      - (备用) 佛山 🇭🇰
+      - (备用) 深圳 🇭🇰🇸🇬
+      - (备用) 宁波 🇭🇰🇸🇬
+      - (备用) 广州 🇭🇰🇸🇬
+      - (备用) 佛山 🇭🇰🇸🇬
+      - (备用) 中山 🇭🇰🇸🇬
   - name: 🔰 节点选择
     type: select
     proxies:
-
-      - 🇯🇵5
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
 
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -28,13 +156,26 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
-      - 🇯🇵5
-
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
 
   - name: 🎥 NETFLIX
     type: select
     proxies:
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -64,11 +205,27 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🎯 全球直连
       - 🔰 节点选择
   - name: 📲 电报信息
     type: select
     proxies:
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
       - 🔰 节点选择
       - 🎯 全球直连
   - name: 🍎 苹果服务
@@ -81,6 +238,28 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+  - name: 🤖 GPT
+    type: select
+    proxies:
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
+  - name: 🧭 Speedtest
+    type: select
+    proxies:
+      - ♻️ HK Automatic
+      - JP 🇯🇵
+      - KR 🇰🇷
+      - HK 🇭🇰
+      - SG 🇸🇬
+      - US 🇺🇸
+      - EU 🇪🇺
+      - Other 🌍
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -106,6 +285,8 @@ rules:
   - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,speedtest.net,🧭 Speedtest
+  - DOMAIN-SUFFIX,fast.com,🧭 Speedtest
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -182,6 +363,7 @@ rules:
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,openai.com,🤖 GPT
   - DOMAIN,app.adjust.com,🎯 全球直连
   - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
   - DOMAIN,log.mmstat.com,🎯 全球直连
@@ -212,6 +394,8 @@ rules:
   - DOMAIN,msg.umeng.com,🎯 全球直连
   - DOMAIN,msg.umengcloud.com,🎯 全球直连
   - DOMAIN,liteboost.cn,🎯 全球直连
+  - DOMAIN,ip.hyp.rip,🎯 全球直连
+  - DOMAIN,hyp.rip,🎯 全球直连
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mcupdate.gstarcad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,adx.open-adx.com,🛑 全球拦截
