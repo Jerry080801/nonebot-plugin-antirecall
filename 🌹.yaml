@@ -7,11 +7,11 @@ external-controller: :9090
 proxies:
   - {
       name: 宁波 🇯🇵,
-      server: live.tikonline.live,
-      port: 20020,
+      server: frontier.palworld.rip,
+      port: 20161,
       type: ss,
       cipher: aes-128-gcm,
-      password: IAKIOI,
+      password: QwuTnE9cja,
       udp: true,
     }
   - {
