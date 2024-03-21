@@ -308,7 +308,7 @@ proxies:
   - {
       name: (备用) 宁波 Frontier LAX🇺🇸,
       server: live.tikonline.live,
-      port: 14783,
+      port: 30000,
       type: ss,
       cipher: aes-128-gcm,
       password: QwuTnE9cja,
@@ -409,6 +409,15 @@ proxies:
       password: IAKIOI
     }
 
+  - {
+      name: 测试 🇻🇳,
+      server: sh-lskdjfoiw.bijia.me,
+      port: 14879,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI
+    }
+
 proxy-groups:
   - name: JP 🇯🇵
     type: select
@@ -443,6 +452,7 @@ proxy-groups:
       - 测试 🇳🇬
       - 杭州 🇦🇺
       - 🇹🇷 土耳其_R_841
+      - 测试 🇻🇳
 
   - name: EU 🇪🇺
     type: select
