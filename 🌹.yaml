@@ -6,14 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {
-      name: 深圳 🇸🇬,
-      server: gy-ksdjf79234l.bijia.me,
-      port: 30030,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: IAKIOI
-    }
-  - {
       name: 宁波 🇯🇵,
       server: live.tikonline.live,
       port: 20020,
@@ -24,7 +16,7 @@ proxies:
     }
   - {
       name: 杭州 🇯🇵,
-      server: jiangsu.bkpsychology.com,
+      server: hangzhou.bkpsychology.com,
       port: 20020,
       type: ss,
       cipher: aes-128-gcm,
@@ -42,7 +34,7 @@ proxies:
     }
   - {
       name: 杭州 AWS🇯🇵,
-      server: jiangsu.bkpsychology.com,
+      server: hangzhou.bkpsychology.com,
       port: 20030,
       type: ss,
       cipher: aes-128-gcm,
@@ -70,7 +62,7 @@ proxies:
 
   - {
       name: 杭州 🇰🇷,
-      server: jiangsu.bkpsychology.com,
+      server: hangzhou.bkpsychology.com,
       port: 20010,
       type: ss,
       cipher: aes-128-gcm,
@@ -106,7 +98,7 @@ proxies:
     }
   - {
       name: 杭州 🇭🇰,
-      server: jiangsu.bkpsychology.com,
+      server: hangzhou.bkpsychology.com,
       port: 12345,
       type: ss,
       cipher: aes-128-gcm,
@@ -189,7 +181,7 @@ proxies:
 
   - {
       name: 杭州 🇭🇰🇸🇬,
-      server: jiangsu.bkpsychology.com,
+      server: hangzhou.piankelaw.top,
       port: 10020,
       type: ss,
       cipher: aes-128-gcm,
@@ -435,6 +427,17 @@ proxies:
       cipher: aes-128-gcm,
       password: IAKIOI
     }
+
+  - {
+      name: 宁波 🇸🇬,
+      server: live.tikonline.live,
+      port: 36645,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI
+    }
+
+  - {name: 🇺🇸 VIP2, server: sh-lskdjfoiw.bijia.me, port: 10650, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: FGuyXW4rC8, tfo: false}
 proxy-groups:
   - name: JP 🇯🇵
     type: select
@@ -522,6 +525,7 @@ proxy-groups:
       - (备用) 佛山 🇭🇰🇸🇬
       - (备用) 中山 🇭🇰🇸🇬
       - 深圳 🇸🇬
+      - 宁波 🇸🇬
   - name: US 🇺🇸
     type: select
     url: http://www.gstatic.com/generate_204
@@ -532,6 +536,7 @@ proxy-groups:
       - (备用) 宁波 Frontier LAX🇺🇸
       - (备用) 上海 Frontier LAX🇺🇸
       - 🇺🇸 VIP
+      - 🇺🇸 VIP2
 
   - name: ♻️ HK Automatic
     type: load-balance
