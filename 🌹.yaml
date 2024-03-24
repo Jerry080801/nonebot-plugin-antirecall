@@ -51,6 +51,15 @@ proxies:
       udp: true,
     }
   - {
+      name: (备用) 上海电信 🇯🇵,
+      server: shct.yunnode.win,
+      port: 25565,
+      type: ss,
+      cipher: aes-128-gcm,
+      password: IAKIOI,
+      udp: true,
+    }
+  - {
       name: (备用) 宁波 🇯🇵,
       server: 120-199-84-180.sslip.io,
       port: 12345,
@@ -354,7 +363,7 @@ proxies:
 
   - {
       name: 杭州 🇦🇺,
-      server: gy-ksdjf79234l.bijia.me,
+      server: hangzhou.bkpsychology.com,
       port: 20202,
       type: ss,
       cipher: aes-128-gcm,
@@ -401,9 +410,9 @@ proxies:
     }
 
   - {
-      name: HKT->HK🇭🇰,
-      server: ah-weorijs.bijia.me,
-      port: 14159,
+      name: HKT,
+      server: gy-ksdjf79234l.bijia.me,
+      port: 34043,
       type: ss,
       cipher: aes-128-gcm,
       password: IAKIOI
@@ -438,6 +447,8 @@ proxies:
     }
 
   - {name: 🇺🇸 VIP2, server: sh-lskdjfoiw.bijia.me, port: 10650, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: FGuyXW4rC8, tfo: false}
+
+
 proxy-groups:
   - name: JP 🇯🇵
     type: select
@@ -451,7 +462,7 @@ proxy-groups:
       - 杭州 AWS🇯🇵
       - (备用) 上海 🇯🇵
       - (备用) 宁波 🇯🇵
-
+      - (备用) 上海电信 🇯🇵
   - name: KR 🇰🇷
     type: select
     url: http://www.gstatic.com/generate_204
@@ -508,7 +519,7 @@ proxy-groups:
       - (备用) 广州 🇭🇰🇸🇬
       - (备用) 佛山 🇭🇰🇸🇬
       - (备用) 中山 🇭🇰🇸🇬
-      - HKT->HK🇭🇰
+      - HKT
   - name: SG 🇸🇬
     type: select
     url: http://www.gstatic.com/generate_204
