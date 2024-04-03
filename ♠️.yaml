@@ -1,575 +1,124 @@
-mixed-port: 7890
-allow-lan: true
-bind-address: '*'
-mode: rule
-log-level: info
-external-controller: '127.0.0.1:9090'
-dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.pub/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
-proxies:
-    - { name: '剩余流量：484.49 GB', type: vmess, server: 8275cl.mc5173.cn, port: 10123, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: '距离下次重置剩余：27 天', type: vmess, server: 8275cl.mc5173.cn, port: 10123, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 套餐到期：2025-03-17, type: vmess, server: 8275cl.mc5173.cn, port: 10123, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: '一元大熊TG: @dx445566', type: vmess, server: 8275cl.mc5173.cn, port: 10123, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 连不上就是换IP了, type: vmess, server: 8275cl.mc5173.cn, port: 10123, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇨🇳江苏2CN-x1.2, type: vmess, server: 2697v2.mc5173.cn, port: 11100, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇨🇳江苏3CN-x1.2, type: vmess, server: 2666v3.mc5173.cn, port: 14440, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇹🇼台湾TW2-家宽动态IP-x2, type: vmess, server: vetw02.956256.xyz, port: 50711, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇹🇼台湾TW2-AK, type: vmess, server: taiwan2.753654.xyz, port: 18803, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇰🇷韩国KR1-动态IP-x2, type: vmess, server: s3.753654.xyz, port: 1081, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇰🇷韩国KR2-动态IP-x2, type: vmess, server: s4.753654.xyz, port: 1081, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇰🇷韩国KR3-动态IP-x2, type: vmess, server: s5.956256.xyz, port: 10815, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇰🇷韩国KR4-动态IP-x1, type: vmess, server: s11.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇰🇷韩国KR5-动态IP-x1, type: vmess, server: s12.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇪迪拜AR1-动态IP-x1, type: vmess, server: s31.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇪迪拜AR2-动态IP-x1, type: vmess, server: s32.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇪迪拜AR3-动态IP-x1, type: vmess, server: s33.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇪迪拜AR4-动态IP-x1, type: vmess, server: s34.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇬🇧英国GB1-动态IP-x1, type: vmess, server: s26.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇬🇧英国GB2-动态IP-x1, type: vmess, server: s27.956256.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇬🇧英国GB3-动态IP-x1, type: vmess, server: s28.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇺澳大利亚AU1-动态IP-x1, type: vmess, server: s18.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇺澳大利亚AU2-动态IP-x2, type: vmess, server: s19.956256.xyz, port: 1000, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇦🇺澳大利亚AU3-动态IP-x1, type: vmess, server: s6.956256.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇩🇪德国DE01-动态IP-x1, type: vmess, server: s19.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇺🇸美国圣何塞US1-动态IP-x1, type: vmess, server: s1.956256.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇺🇸美国圣何塞US2-动态IP-x1, type: vmess, server: s2.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇺🇸美国凤凰城US1-动态IP-x1, type: vmess, server: s13.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇺🇸美国凤凰城US2-动态IP-x1, type: vmess, server: s14.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇧🇷巴西BR3-动态IP-x2, type: vmess, server: s15.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇧🇷巴西BR4-动态IP-x1, type: vmess, server: s16.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇧🇷巴西BR5-动态IP-x1, type: vmess, server: s17.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇸🇬新加坡SG1-动态IP-x1, type: vmess, server: s9.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇸🇬新加坡SG2-动态IP-x1, type: vmess, server: s10.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇮🇳印度IN1-动态IP-x1, type: vmess, server: s7.956256.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇮🇳印度IN2-动态IP-x1, type: vmess, server: s8.956256.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇮🇳印度IN3-动态IP-x1, type: vmess, server: s1.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇮🇳印度IN4-动态IP-x1, type: vmess, server: s6.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-    - { name: 🇮🇳印度IN5-动态IP-x1, type: vmess, server: s7.753654.xyz, port: 80, uuid: 27d91263-ef1d-47a4-84cb-dd5e59c2d697, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: a.189.cn } }, ws-path: /, ws-headers: { Host: a.189.cn } }
-proxy-groups:
-    - { name: 大熊云☁, type: select, proxies: [自动选择, 故障转移, '剩余流量：484.49 GB', '距离下次重置剩余：27 天', 套餐到期：2025-03-17, '一元大熊TG: @dx445566', 连不上就是换IP了, 🇨🇳江苏2CN-x1.2, 🇨🇳江苏3CN-x1.2, 🇹🇼台湾TW2-家宽动态IP-x2, 🇹🇼台湾TW2-AK, 🇰🇷韩国KR1-动态IP-x2, 🇰🇷韩国KR2-动态IP-x2, 🇰🇷韩国KR3-动态IP-x2, 🇰🇷韩国KR4-动态IP-x1, 🇰🇷韩国KR5-动态IP-x1, 🇦🇪迪拜AR1-动态IP-x1, 🇦🇪迪拜AR2-动态IP-x1, 🇦🇪迪拜AR3-动态IP-x1, 🇦🇪迪拜AR4-动态IP-x1, 🇬🇧英国GB1-动态IP-x1, 🇬🇧英国GB2-动态IP-x1, 🇬🇧英国GB3-动态IP-x1, 🇦🇺澳大利亚AU1-动态IP-x1, 🇦🇺澳大利亚AU2-动态IP-x2, 🇦🇺澳大利亚AU3-动态IP-x1, 🇩🇪德国DE01-动态IP-x1, 🇺🇸美国圣何塞US1-动态IP-x1, 🇺🇸美国圣何塞US2-动态IP-x1, 🇺🇸美国凤凰城US1-动态IP-x1, 🇺🇸美国凤凰城US2-动态IP-x1, 🇧🇷巴西BR3-动态IP-x2, 🇧🇷巴西BR4-动态IP-x1, 🇧🇷巴西BR5-动态IP-x1, 🇸🇬新加坡SG1-动态IP-x1, 🇸🇬新加坡SG2-动态IP-x1, 🇮🇳印度IN1-动态IP-x1, 🇮🇳印度IN2-动态IP-x1, 🇮🇳印度IN3-动态IP-x1, 🇮🇳印度IN4-动态IP-x1, 🇮🇳印度IN5-动态IP-x1] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：484.49 GB', '距离下次重置剩余：27 天', 套餐到期：2025-03-17, '一元大熊TG: @dx445566', 连不上就是换IP了, 🇨🇳江苏2CN-x1.2, 🇨🇳江苏3CN-x1.2, 🇹🇼台湾TW2-家宽动态IP-x2, 🇹🇼台湾TW2-AK, 🇰🇷韩国KR1-动态IP-x2, 🇰🇷韩国KR2-动态IP-x2, 🇰🇷韩国KR3-动态IP-x2, 🇰🇷韩国KR4-动态IP-x1, 🇰🇷韩国KR5-动态IP-x1, 🇦🇪迪拜AR1-动态IP-x1, 🇦🇪迪拜AR2-动态IP-x1, 🇦🇪迪拜AR3-动态IP-x1, 🇦🇪迪拜AR4-动态IP-x1, 🇬🇧英国GB1-动态IP-x1, 🇬🇧英国GB2-动态IP-x1, 🇬🇧英国GB3-动态IP-x1, 🇦🇺澳大利亚AU1-动态IP-x1, 🇦🇺澳大利亚AU2-动态IP-x2, 🇦🇺澳大利亚AU3-动态IP-x1, 🇩🇪德国DE01-动态IP-x1, 🇺🇸美国圣何塞US1-动态IP-x1, 🇺🇸美国圣何塞US2-动态IP-x1, 🇺🇸美国凤凰城US1-动态IP-x1, 🇺🇸美国凤凰城US2-动态IP-x1, 🇧🇷巴西BR3-动态IP-x2, 🇧🇷巴西BR4-动态IP-x1, 🇧🇷巴西BR5-动态IP-x1, 🇸🇬新加坡SG1-动态IP-x1, 🇸🇬新加坡SG2-动态IP-x1, 🇮🇳印度IN1-动态IP-x1, 🇮🇳印度IN2-动态IP-x1, 🇮🇳印度IN3-动态IP-x1, 🇮🇳印度IN4-动态IP-x1, 🇮🇳印度IN5-动态IP-x1], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：484.49 GB', '距离下次重置剩余：27 天', 套餐到期：2025-03-17, '一元大熊TG: @dx445566', 连不上就是换IP了, 🇨🇳江苏2CN-x1.2, 🇨🇳江苏3CN-x1.2, 🇹🇼台湾TW2-家宽动态IP-x2, 🇹🇼台湾TW2-AK, 🇰🇷韩国KR1-动态IP-x2, 🇰🇷韩国KR2-动态IP-x2, 🇰🇷韩国KR3-动态IP-x2, 🇰🇷韩国KR4-动态IP-x1, 🇰🇷韩国KR5-动态IP-x1, 🇦🇪迪拜AR1-动态IP-x1, 🇦🇪迪拜AR2-动态IP-x1, 🇦🇪迪拜AR3-动态IP-x1, 🇦🇪迪拜AR4-动态IP-x1, 🇬🇧英国GB1-动态IP-x1, 🇬🇧英国GB2-动态IP-x1, 🇬🇧英国GB3-动态IP-x1, 🇦🇺澳大利亚AU1-动态IP-x1, 🇦🇺澳大利亚AU2-动态IP-x2, 🇦🇺澳大利亚AU3-动态IP-x1, 🇩🇪德国DE01-动态IP-x1, 🇺🇸美国圣何塞US1-动态IP-x1, 🇺🇸美国圣何塞US2-动态IP-x1, 🇺🇸美国凤凰城US1-动态IP-x1, 🇺🇸美国凤凰城US2-动态IP-x1, 🇧🇷巴西BR3-动态IP-x2, 🇧🇷巴西BR4-动态IP-x1, 🇧🇷巴西BR5-动态IP-x1, 🇸🇬新加坡SG1-动态IP-x1, 🇸🇬新加坡SG2-动态IP-x1, 🇮🇳印度IN1-动态IP-x1, 🇮🇳印度IN2-动态IP-x1, 🇮🇳印度IN3-动态IP-x1, 🇮🇳印度IN4-动态IP-x1, 🇮🇳印度IN5-动态IP-x1], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
-rules:
-    - 'DOMAIN,zip.daxiongda.top,DIRECT'
-    - 'DOMAIN-SUFFIX,services.googleapis.cn,大熊云☁'
-    - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,大熊云☁'
-    - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
-    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
-    - 'DOMAIN,developer.apple.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,digicert.com,大熊云☁'
-    - 'DOMAIN,ocsp.apple.com,大熊云☁'
-    - 'DOMAIN,ocsp.comodoca.com,大熊云☁'
-    - 'DOMAIN,ocsp.usertrust.com,大熊云☁'
-    - 'DOMAIN,ocsp.sectigo.com,大熊云☁'
-    - 'DOMAIN,ocsp.verisign.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,apple-dns.net,大熊云☁'
-    - 'DOMAIN,testflight.apple.com,大熊云☁'
-    - 'DOMAIN,sandbox.itunes.apple.com,大熊云☁'
-    - 'DOMAIN,itunes.apple.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,apps.apple.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blobstore.apple.com,大熊云☁'
-    - 'DOMAIN,cvws.icloud-content.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
-    - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
-    - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
-    - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
-    - 'DOMAIN-SUFFIX,me.com,DIRECT'
-    - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
-    - 'DOMAIN-SUFFIX,cdn-apple.com,DIRECT'
-    - 'DOMAIN-SUFFIX,akadns.net,DIRECT'
-    - 'DOMAIN-SUFFIX,akamaiedge.net,DIRECT'
-    - 'DOMAIN-SUFFIX,edgekey.net,DIRECT'
-    - 'DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,mwcname.com,DIRECT'
-    - 'DOMAIN-SUFFIX,apple.com,DIRECT'
-    - 'DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT'
-    - 'DOMAIN-SUFFIX,apple-mapkit.com,DIRECT'
-    - 'DOMAIN-SUFFIX,126.com,DIRECT'
-    - 'DOMAIN-SUFFIX,126.net,DIRECT'
-    - 'DOMAIN-SUFFIX,127.net,DIRECT'
-    - 'DOMAIN-SUFFIX,163.com,DIRECT'
-    - 'DOMAIN-SUFFIX,360buyimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,36kr.com,DIRECT'
-    - 'DOMAIN-SUFFIX,acfun.tv,DIRECT'
-    - 'DOMAIN-SUFFIX,air-matters.com,DIRECT'
-    - 'DOMAIN-SUFFIX,aixifan.com,DIRECT'
-    - 'DOMAIN-KEYWORD,alicdn,DIRECT'
-    - 'DOMAIN-KEYWORD,alipay,DIRECT'
-    - 'DOMAIN-KEYWORD,taobao,DIRECT'
-    - 'DOMAIN-SUFFIX,amap.com,DIRECT'
-    - 'DOMAIN-SUFFIX,autonavi.com,DIRECT'
-    - 'DOMAIN-KEYWORD,baidu,DIRECT'
-    - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
-    - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
-    - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
-    - 'DOMAIN-SUFFIX,caiyunapp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,clouddn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,cnbeta.com,DIRECT'
-    - 'DOMAIN-SUFFIX,cnbetacdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,cootekservice.com,DIRECT'
-    - 'DOMAIN-SUFFIX,csdn.net,DIRECT'
-    - 'DOMAIN-SUFFIX,ctrip.com,DIRECT'
-    - 'DOMAIN-SUFFIX,dgtle.com,DIRECT'
-    - 'DOMAIN-SUFFIX,dianping.com,DIRECT'
-    - 'DOMAIN-SUFFIX,douban.com,DIRECT'
-    - 'DOMAIN-SUFFIX,doubanio.com,DIRECT'
-    - 'DOMAIN-SUFFIX,duokan.com,DIRECT'
-    - 'DOMAIN-SUFFIX,easou.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ele.me,DIRECT'
-    - 'DOMAIN-SUFFIX,feng.com,DIRECT'
-    - 'DOMAIN-SUFFIX,fir.im,DIRECT'
-    - 'DOMAIN-SUFFIX,frdic.com,DIRECT'
-    - 'DOMAIN-SUFFIX,g-cores.com,DIRECT'
-    - 'DOMAIN-SUFFIX,godic.net,DIRECT'
-    - 'DOMAIN-SUFFIX,gtimg.com,DIRECT'
-    - 'DOMAIN,cdn.hockeyapp.net,DIRECT'
-    - 'DOMAIN-SUFFIX,hongxiu.com,DIRECT'
-    - 'DOMAIN-SUFFIX,hxcdn.net,DIRECT'
-    - 'DOMAIN-SUFFIX,iciba.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ifeng.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
-    - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
-    - 'DOMAIN-SUFFIX,jd.com,DIRECT'
-    - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
-    - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
-    - 'DOMAIN-SUFFIX,le.com,DIRECT'
-    - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
-    - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
-    - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
-    - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
-    - 'DOMAIN-SUFFIX,mi.com,DIRECT'
-    - 'DOMAIN-SUFFIX,miaopai.com,DIRECT'
-    - 'DOMAIN-SUFFIX,microsoft.com,DIRECT'
-    - 'DOMAIN-SUFFIX,microsoftonline.com,DIRECT'
-    - 'DOMAIN-SUFFIX,miui.com,DIRECT'
-    - 'DOMAIN-SUFFIX,miwifi.com,DIRECT'
-    - 'DOMAIN-SUFFIX,mob.com,DIRECT'
-    - 'DOMAIN-SUFFIX,netease.com,DIRECT'
-    - 'DOMAIN-SUFFIX,office.com,DIRECT'
-    - 'DOMAIN-SUFFIX,office365.com,DIRECT'
-    - 'DOMAIN-KEYWORD,officecdn,DIRECT'
-    - 'DOMAIN-SUFFIX,oschina.net,DIRECT'
-    - 'DOMAIN-SUFFIX,ppsimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,pstatp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qcloud.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qdaily.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qdmm.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qhimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qhres.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qidian.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qihucdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qiniu.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qiniucdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qiyipic.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qq.com,DIRECT'
-    - 'DOMAIN-SUFFIX,qqurl.com,DIRECT'
-    - 'DOMAIN-SUFFIX,rarbg.to,DIRECT'
-    - 'DOMAIN-SUFFIX,ruguoapp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,segmentfault.com,DIRECT'
-    - 'DOMAIN-SUFFIX,sinaapp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,smzdm.com,DIRECT'
-    - 'DOMAIN-SUFFIX,snapdrop.net,DIRECT'
-    - 'DOMAIN-SUFFIX,sogou.com,DIRECT'
-    - 'DOMAIN-SUFFIX,sogoucdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,sohu.com,DIRECT'
-    - 'DOMAIN-SUFFIX,soku.com,DIRECT'
-    - 'DOMAIN-SUFFIX,speedtest.net,DIRECT'
-    - 'DOMAIN-SUFFIX,sspai.com,DIRECT'
-    - 'DOMAIN-SUFFIX,suning.com,DIRECT'
-    - 'DOMAIN-SUFFIX,taobao.com,DIRECT'
-    - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
-    - 'DOMAIN-SUFFIX,tenpay.com,DIRECT'
-    - 'DOMAIN-SUFFIX,tianyancha.com,DIRECT'
-    - 'DOMAIN-SUFFIX,tmall.com,DIRECT'
-    - 'DOMAIN-SUFFIX,tudou.com,DIRECT'
-    - 'DOMAIN-SUFFIX,umetrip.com,DIRECT'
-    - 'DOMAIN-SUFFIX,upaiyun.com,DIRECT'
-    - 'DOMAIN-SUFFIX,upyun.com,DIRECT'
-    - 'DOMAIN-SUFFIX,veryzhun.com,DIRECT'
-    - 'DOMAIN-SUFFIX,weather.com,DIRECT'
-    - 'DOMAIN-SUFFIX,weibo.com,DIRECT'
-    - 'DOMAIN-SUFFIX,xiami.com,DIRECT'
-    - 'DOMAIN-SUFFIX,xiami.net,DIRECT'
-    - 'DOMAIN-SUFFIX,xiaomicp.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ximalaya.com,DIRECT'
-    - 'DOMAIN-SUFFIX,xmcdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,xunlei.com,DIRECT'
-    - 'DOMAIN-SUFFIX,yhd.com,DIRECT'
-    - 'DOMAIN-SUFFIX,yihaodianimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,yinxiang.com,DIRECT'
-    - 'DOMAIN-SUFFIX,ykimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,youdao.com,DIRECT'
-    - 'DOMAIN-SUFFIX,youku.com,DIRECT'
-    - 'DOMAIN-SUFFIX,zealer.com,DIRECT'
-    - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
-    - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
-    - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
-    - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
-    - 'DOMAIN-KEYWORD,amazon,大熊云☁'
-    - 'DOMAIN-KEYWORD,google,大熊云☁'
-    - 'DOMAIN-KEYWORD,gmail,大熊云☁'
-    - 'DOMAIN-KEYWORD,youtube,大熊云☁'
-    - 'DOMAIN-KEYWORD,facebook,大熊云☁'
-    - 'DOMAIN-SUFFIX,fb.me,大熊云☁'
-    - 'DOMAIN-SUFFIX,fbcdn.net,大熊云☁'
-    - 'DOMAIN-KEYWORD,twitter,大熊云☁'
-    - 'DOMAIN-KEYWORD,instagram,大熊云☁'
-    - 'DOMAIN-KEYWORD,dropbox,大熊云☁'
-    - 'DOMAIN-SUFFIX,twimg.com,大熊云☁'
-    - 'DOMAIN-KEYWORD,blogspot,大熊云☁'
-    - 'DOMAIN-SUFFIX,youtu.be,大熊云☁'
-    - 'DOMAIN-KEYWORD,whatsapp,大熊云☁'
-    - 'DOMAIN-KEYWORD,admarvel,REJECT'
-    - 'DOMAIN-KEYWORD,admaster,REJECT'
-    - 'DOMAIN-KEYWORD,adsage,REJECT'
-    - 'DOMAIN-KEYWORD,adsmogo,REJECT'
-    - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
-    - 'DOMAIN-KEYWORD,adwords,REJECT'
-    - 'DOMAIN-KEYWORD,adservice,REJECT'
-    - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
-    - 'DOMAIN-KEYWORD,domob,REJECT'
-    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
-    - 'DOMAIN-KEYWORD,duomeng,REJECT'
-    - 'DOMAIN-KEYWORD,dwtrack,REJECT'
-    - 'DOMAIN-KEYWORD,guanggao,REJECT'
-    - 'DOMAIN-KEYWORD,lianmeng,REJECT'
-    - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
-    - 'DOMAIN-KEYWORD,mopub,REJECT'
-    - 'DOMAIN-KEYWORD,omgmta,REJECT'
-    - 'DOMAIN-KEYWORD,openx,REJECT'
-    - 'DOMAIN-KEYWORD,partnerad,REJECT'
-    - 'DOMAIN-KEYWORD,pingfore,REJECT'
-    - 'DOMAIN-KEYWORD,supersonicads,REJECT'
-    - 'DOMAIN-KEYWORD,uedas,REJECT'
-    - 'DOMAIN-KEYWORD,umeng,REJECT'
-    - 'DOMAIN-KEYWORD,usage,REJECT'
-    - 'DOMAIN-SUFFIX,vungle.com,REJECT'
-    - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
-    - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
-    - 'DOMAIN-SUFFIX,9to5mac.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,abpchina.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,adblockplus.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,adobe.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,akamaized.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,alfredapp.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,amplitude.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ampproject.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,android.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,angularjs.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,aolcdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,apkpure.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,appledaily.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,appshopper.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,appspot.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,arcgis.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,archive.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,armorgames.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,aspnetcdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,att.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,awsstatic.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,azureedge.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,azurewebsites.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,bing.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,bintray.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,bit.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,bit.ly,大熊云☁'
-    - 'DOMAIN-SUFFIX,bitbucket.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,bjango.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,bkrtx.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blog.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blogcdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blogger.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blogsmithmedia.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blogspot.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,blogspot.hk,大熊云☁'
-    - 'DOMAIN-SUFFIX,bloomberg.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,box.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,box.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,cachefly.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,chromium.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,cl.ly,大熊云☁'
-    - 'DOMAIN-SUFFIX,cloudflare.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,cloudfront.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,cloudmagic.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,cmail19.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,cnet.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,cocoapods.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,comodoca.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,crashlytics.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,culturedcode.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,d.pr,大熊云☁'
-    - 'DOMAIN-SUFFIX,danilo.to,大熊云☁'
-    - 'DOMAIN-SUFFIX,dayone.me,大熊云☁'
-    - 'DOMAIN-SUFFIX,db.tt,大熊云☁'
-    - 'DOMAIN-SUFFIX,deskconnect.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,disq.us,大熊云☁'
-    - 'DOMAIN-SUFFIX,disqus.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,disquscdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,dnsimple.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,docker.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,dribbble.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,droplr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,duckduckgo.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,dueapp.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,dytt8.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,edgecastcdn.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,edgekey.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,edgesuite.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,engadget.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,entrust.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,eurekavpt.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,evernote.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,fabric.io,大熊云☁'
-    - 'DOMAIN-SUFFIX,fast.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,fastly.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,fc2.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,feedburner.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,feedly.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,feedsportal.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,fiftythree.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,firebaseio.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,flexibits.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,flickr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,flipboard.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,g.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,gabia.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,geni.us,大熊云☁'
-    - 'DOMAIN-SUFFIX,gfx.ms,大熊云☁'
-    - 'DOMAIN-SUFFIX,ggpht.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ghostnoteapp.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,git.io,大熊云☁'
-    - 'DOMAIN-KEYWORD,github,大熊云☁'
-    - 'DOMAIN-SUFFIX,globalsign.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,gmodules.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,godaddy.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,golang.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,gongm.in,大熊云☁'
-    - 'DOMAIN-SUFFIX,goo.gl,大熊云☁'
-    - 'DOMAIN-SUFFIX,goodreaders.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,goodreads.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,gravatar.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,gstatic.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,gvt0.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,hockeyapp.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,hotmail.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,icons8.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ifixit.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ift.tt,大熊云☁'
-    - 'DOMAIN-SUFFIX,ifttt.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,iherb.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,imageshack.us,大熊云☁'
-    - 'DOMAIN-SUFFIX,img.ly,大熊云☁'
-    - 'DOMAIN-SUFFIX,imgur.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,imore.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,instapaper.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ipn.li,大熊云☁'
-    - 'DOMAIN-SUFFIX,is.gd,大熊云☁'
-    - 'DOMAIN-SUFFIX,issuu.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,itgonglun.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,itun.es,大熊云☁'
-    - 'DOMAIN-SUFFIX,ixquick.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,j.mp,大熊云☁'
-    - 'DOMAIN-SUFFIX,js.revsci.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,jshint.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,jtvnw.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,justgetflux.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,kat.cr,大熊云☁'
-    - 'DOMAIN-SUFFIX,klip.me,大熊云☁'
-    - 'DOMAIN-SUFFIX,libsyn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,linkedin.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,line-apps.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,linode.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,lithium.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,littlehj.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,live.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,live.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,livefilestore.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,llnwd.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,macid.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,macromedia.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,macrumors.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mashable.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mathjax.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,medium.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mega.co.nz,大熊云☁'
-    - 'DOMAIN-SUFFIX,mega.nz,大熊云☁'
-    - 'DOMAIN-SUFFIX,megaupload.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,microsofttranslator.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mindnode.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,mobile01.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,modmyi.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,msedge.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,myfontastic.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,name.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,nextmedia.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,nsstatic.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,nssurge.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,nyt.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,nytimes.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,omnigroup.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,onedrive.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,onenote.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ooyala.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,openvpn.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,openwrt.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,orkut.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,osxdaily.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,outlook.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ow.ly,大熊云☁'
-    - 'DOMAIN-SUFFIX,paddleapi.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,parallels.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,parse.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,pdfexpert.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,periscope.tv,大熊云☁'
-    - 'DOMAIN-SUFFIX,pinboard.in,大熊云☁'
-    - 'DOMAIN-SUFFIX,pinterest.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,pixelmator.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,pixiv.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,playpcesor.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,playstation.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,playstation.com.hk,大熊云☁'
-    - 'DOMAIN-SUFFIX,playstation.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,playstationnetwork.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,pushwoosh.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,rime.im,大熊云☁'
-    - 'DOMAIN-SUFFIX,servebom.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,sfx.ms,大熊云☁'
-    - 'DOMAIN-SUFFIX,shadowsocks.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,sharethis.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,shazam.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,skype.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,smartdns大熊云☁.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,smartmailcloud.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,sndcdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,sony.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,soundcloud.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,sourceforge.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,spotify.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,squarespace.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,sstatic.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,st.luluku.pw,大熊云☁'
-    - 'DOMAIN-SUFFIX,stackoverflow.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,startpage.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,staticflickr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,steamcommunity.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,symauth.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,symcb.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,symcd.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tapbots.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tapbots.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,tdesktop.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,techcrunch.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,techsmith.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,thepiratebay.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,theverge.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,time.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,timeinc.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,tiny.cc,大熊云☁'
-    - 'DOMAIN-SUFFIX,tinypic.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tmblr.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,todoist.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,trello.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,trustasiassl.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tumblr.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,tumblr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tweetdeck.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,tweetmarker.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,twitch.tv,大熊云☁'
-    - 'DOMAIN-SUFFIX,txmblr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,typekit.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,ubertags.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ublock.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,ubnt.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ulyssesapp.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,urchin.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,usertrust.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,v.gd,大熊云☁'
-    - 'DOMAIN-SUFFIX,v2ex.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,vimeo.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,vimeocdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,vine.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,vivaldi.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,vox-cdn.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,vsco.co,大熊云☁'
-    - 'DOMAIN-SUFFIX,vultr.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,w.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,w3schools.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,webtype.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wikiwand.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wikileaks.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,wikimedia.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,wikipedia.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wikipedia.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,windows.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,windows.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,wire.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wordpress.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,workflowy.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wp.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wsj.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,wsj.net,大熊云☁'
-    - 'DOMAIN-SUFFIX,xda-developers.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,xeeno.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,xiti.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,yahoo.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,yimg.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,ying.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,yoyo.org,大熊云☁'
-    - 'DOMAIN-SUFFIX,ytimg.com,大熊云☁'
-    - 'DOMAIN-SUFFIX,telegra.ph,大熊云☁'
-    - 'DOMAIN-SUFFIX,telegram.org,大熊云☁'
-    - 'IP-CIDR,91.108.4.0/22,大熊云☁,no-resolve'
-    - 'IP-CIDR,91.108.8.0/21,大熊云☁,no-resolve'
-    - 'IP-CIDR,91.108.16.0/22,大熊云☁,no-resolve'
-    - 'IP-CIDR,91.108.56.0/22,大熊云☁,no-resolve'
-    - 'IP-CIDR,149.154.160.0/20,大熊云☁,no-resolve'
-    - 'IP-CIDR6,2001:67c:4e8::/48,大熊云☁,no-resolve'
-    - 'IP-CIDR6,2001:b28:f23d::/48,大熊云☁,no-resolve'
-    - 'IP-CIDR6,2001:b28:f23f::/48,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.232.181.162/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.241.147.226/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.253.253.226/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.253.255.162/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.253.255.34/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,120.253.255.98/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,180.163.150.162/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,180.163.150.34/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,180.163.151.162/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,180.163.151.34/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,203.208.39.0/24,大熊云☁,no-resolve'
-    - 'IP-CIDR,203.208.40.0/24,大熊云☁,no-resolve'
-    - 'IP-CIDR,203.208.41.0/24,大熊云☁,no-resolve'
-    - 'IP-CIDR,203.208.43.0/24,大熊云☁,no-resolve'
-    - 'IP-CIDR,203.208.50.0/24,大熊云☁,no-resolve'
-    - 'IP-CIDR,220.181.174.162/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,220.181.174.226/32,大熊云☁,no-resolve'
-    - 'IP-CIDR,220.181.174.34/32,大熊云☁,no-resolve'
-    - 'DOMAIN,injections.adguard.org,DIRECT'
-    - 'DOMAIN,local.adguard.org,DIRECT'
-    - 'DOMAIN-SUFFIX,local,DIRECT'
-    - 'IP-CIDR,127.0.0.0/8,DIRECT'
-    - 'IP-CIDR,172.16.0.0/12,DIRECT'
-    - 'IP-CIDR,192.168.0.0/16,DIRECT'
-    - 'IP-CIDR,10.0.0.0/8,DIRECT'
-    - 'IP-CIDR,17.0.0.0/8,DIRECT'
-    - 'IP-CIDR,100.64.0.0/10,DIRECT'
-    - 'IP-CIDR,224.0.0.0/4,DIRECT'
-    - 'IP-CIDR6,fe80::/10,DIRECT'
-    - 'DOMAIN-SUFFIX,cn,DIRECT'
-    - 'DOMAIN-KEYWORD,-cn,DIRECT'
-    - 'GEOIP,CN,DIRECT'
-    - 'MATCH,大熊云☁'
+#!MANAGED-CONFIG https://api.v1.mk/sub?config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&expand=true&fdn=false&insert=false&list=false&scv=false&target=surge&tfo=false&udp=false&url=https%3A%2F%2Fsub.id9.cc%2Fsub%3Ftarget%3Dclash%26new_name%3Dtrue%26url%3Dss%253A%252F%252FYWVzLTEyOC1nY206SUFLSU9J%254042.3.68.15%253A50035%2523233boy-ss-42.3.68.15%26insert%3Dfalse%26config%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252FACL4SSR%252FACL4SSR%252Fmaster%252FClash%252Fconfig%252FACL4SSR_Online.ini&ver=4&xudp=false interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
+external-controller-access = password@0.0.0.0:6170
+http-api = password@0.0.0.0:6171
+test-timeout = 5
+http-api-web-dashboard = true
+exclude-simple-hostnames = true
+allow-wifi-access = true
+http-listen = 0.0.0.0:7890
+socks5-listen = 0.0.0.0:7891
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+
+
+上海电信 🇯🇵 = ss, jiangsu.bkpsychology.com, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+上海移动 🇯🇵 = ss, js-sklfwoeiu123r.bijia.me, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+安徽联通 🇯🇵 = ss, ah-weorijs.bijia.me, 25565, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用) 宁波移动 🇯🇵 = ss, 120-199-84-180.sslip.io, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用) 江苏移动 🇯🇵 = ss, uouo.yunnode.win, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+杭州移动 🇰🇷 = ss, hangzhou.piankelaw.top, 20010, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+上海电信 🇰🇷 = ss, zxcv.yunnode.win, 20010, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+杭州移动 🇭🇰 = ss, hangzhou.piankelaw.top, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+深圳移动 🇭🇰 = ss, szcmv1.v6.al, 10462, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+
+(备用) 宁波移动 🇭🇰 = ss, js-sklfwoeiu123r.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用2) 宁波移动 🇭🇰 = ss, 120-199-84-180.sslip.io, 12350, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用3) 广州移动 🇭🇰 = ss, thecom.today, 39610, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用4) 佛山移动 🇭🇰 = ss, cmv5.pgfo.doves.top, 30020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+深圳 HKT🇭🇰 = ss, 218.204.179.126, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+HKT HY2🇭🇰 = hysteria2, hy.mother.rip, 34027, password=37f4b5b3-cd5b-4aef-a8ba-7e861aae418d, skip-cert-verify=false, tfo=false, udp-relay=false
+
+
+
+
+
+
+上海移动 Frontier = ss, sh-lskdjfoiw.bijia.me, 20202, encrypt-method=aes-128-gcm, password=QwuTnE9cja, tfo=false, udp-relay=true
+上海电信 Frontier = ss, zxcv.yunnode.win, 20202, encrypt-method=aes-128-gcm, password=QwuTnE9cja, tfo=false, udp-relay=true
+(备用) 宁波移动 Frontier = ss, live.tikonline.live, 30000, encrypt-method=aes-128-gcm, password=QwuTnE9cja, tfo=false, udp-relay=true
+
+
+深圳移动 🇸🇬 = ss, gy-ksdjf79234l.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+上海电信 🇸🇬 = ss, zxcv.yunnode.win , 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+杭州移动 🇸🇬 = ss, hangzhou.piankelaw.top, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇸🇬 = ss, ah-weorijs.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+(备用) 宁波移动 🇸🇬 = ss, live.tikonline.live, 36645, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+安徽联通 🇹🇷 = ss, ah-weorijs.bijia.me, 30303, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇺🇦 = ss, ah-weorijs.bijia.me, 12350, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇳🇬 = ss, ah-weorijs.bijia.me, 20200, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇩🇪 = ss, ah-weorijs.bijia.me, 20080, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇫🇷 = ss, ah-weorijs.bijia.me, 21800, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇬🇧 = ss, ah-weorijs.bijia.me, 22300, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+深圳移动 河内🇻🇳 = ss, gy-ksdjf79234l.bijia.me, 41313, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+[Proxy Group]
+🚀 Manual Selection = select, 上海移动 🇯🇵,上海电信 🇯🇵, 安徽联通 🇯🇵, (备用) 宁波移动 🇯🇵,(备用) 江苏移动 🇯🇵, 杭州移动 🇭🇰, 深圳移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用2) 宁波移动 🇭🇰, (备用3) 广州移动 🇭🇰, (备用4) 佛山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇸🇬, 上海电信 🇸🇬, 杭州移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, 杭州移动 🇰🇷, 上海电信 🇰🇷,上海移动 Frontier, 上海电信 Frontier, (备用) 宁波移动 Frontier, 安徽联通 🇹🇷, 安徽联通 🇺🇦, 安徽联通 🇳🇬, 安徽联通 🇩🇪, 安徽联通 🇫🇷, 深圳移动 河内🇻🇳, 安徽联通 🇬🇧, 深圳 HKT🇭🇰
+
+🇭🇰 HK = select, 杭州移动 🇭🇰, 深圳移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用2) 宁波移动 🇭🇰, (备用3) 广州移动 🇭🇰, (备用4) 佛山移动 🇭🇰, HKT HY2🇭🇰,深圳 HKT🇭🇰
+
+🇭🇰 HK 2nd = select, 杭州移动 🇭🇰, 深圳移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用2) 宁波移动 🇭🇰, (备用3) 广州移动 🇭🇰, (备用4) 佛山移动 🇭🇰, HKT HY2🇭🇰,深圳 HKT🇭🇰
+
+🇯🇵 JP = select, 上海移动 🇯🇵,上海电信 🇯🇵, 安徽联通 🇯🇵, (备用) 宁波移动 🇯🇵,(备用) 江苏移动 🇯🇵
+🇺🇲 US = select, 上海移动 Frontier, 上海电信 Frontier, (备用) 宁波移动 Frontier
+🇸🇬 SG = select, 深圳移动 🇸🇬, 上海电信 🇸🇬, 杭州移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬
+🇰🇷 KR= select, 杭州移动 🇰🇷, 上海电信 🇰🇷
+🌍 OT = select, 安徽联通 🇹🇷, 安徽联通 🇺🇦, 安徽联通 🇳🇬, 安徽联通 🇩🇪, 深圳移动 河内🇻🇳, 安徽联通 🇫🇷, 安徽联通 🇬🇧
+
+
+
+📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+📹 Youtube = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🎥 Netflix = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+
+🌍 International Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🇨🇳 CN Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+📢 Google = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+Ⓜ️ Microsoft = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🍎 Apple = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🎯 Direct = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🛑 ADs = select,REJECT,DIRECT
+🍃 Apps = select,REJECT,DIRECT
+🐟 TheRest = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 ADs,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 Apps,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 Google,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ Microsoft,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 Apple,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 TG,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list,💬 ChatGPT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 Youtube,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 Netflix,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🇨🇳 CN Media,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 International Media,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 Manual Selection,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 Direct,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 Direct,update-interval=86400
+GEOIP,CN,🎯 Direct
+FINAL,🐟 TheRest
