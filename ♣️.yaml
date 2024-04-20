@@ -24,57 +24,57 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-上海电信 🇯🇵 = ss, jiangsu.bkpsychology.com, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
 南通移动 🇯🇵 = ss, js-sklfwoeiu123r.bijia.me, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 安徽联通 🇯🇵 = ss, ah-weorijs.bijia.me, 25565, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-(备用) 宁波移动 🇯🇵 = ss, 120-199-84-180.sslip.io, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 徐州移动 🇯🇵 = ss, uouo.yunnode.win, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 南通移动 🇯🇵 = ss, zxc.888888.wtf, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+中山移动 🇭🇰 = ss, 218.204.179.60, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-杭州移动 🇰🇷 = ss, hangzhou.piankelaw.top, 20010, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-深圳移动 🇭🇰 = ss, jiangsu.bkpsychology.com, 30010, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 广州移动 🇭🇰 = ss, gy-ksdjf79234l.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 南通移动 🇭🇰 = ss, js-sklfwoeiu123r.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+深圳移动 🇭🇰 = ss, szchbggcguj-001cm.v6.al, 10462, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+山东移动 🇭🇰 = ss, 120.220.19.102, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 (备用) 宁波移动 🇭🇰 = ss, 120-199-84-180.sslip.io, 12350, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 佛山移动 🇭🇰 = ss, thecom.today, 39610, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 佛山移动2 🇭🇰 = ss, cmv5.pgfo.doves.top, 30020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-中山移动 🇭🇰 = ss, 218.204.179.126, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-HKT HY2🇭🇰 = hysteria2, hy.mother.rip, 34027, password=37f4b5b3-cd5b-4aef-a8ba-7e861aae418d, skip-cert-verify=false, tfo=false, udp-relay=false
+(备用) 佛山移动 🇭🇰 = ss, cmv5.pgfo.doves.top, 30020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 
-(备用) 宁波移动 Frontier = ss, zxc.888888.wtf, 30000, encrypt-method=aes-128-gcm, password=QwuTnE9cja, tfo=false, udp-relay=true
+HKT HY2🇭🇰 = hysteria2, wq.ganjuzx.cn, 41215, password=cf5f4d79-b8b6-43e5-aa35-72f94c29ba1c, skip-cert-verify=false, tfo=false, udp-relay=false
 
-深圳移动 🇸🇬 = ss, jiangsu.bkpsychology.com, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+Frontier 🇺🇸 = ss, Jerry.js2398erj234.bijia.me, 10713, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+深圳移动 🇸🇬 = ss, szchbggcguj-001cm.v6.al, 10050, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
 广州移动 🇸🇬 = ss, gy-ksdjf79234l.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 江苏移动 🇸🇬 = ss, js-sklfwoeiu123r.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 安徽联通 🇸🇬 = ss, ah-weorijs.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 (备用) 宁波移动 🇸🇬 = ss, ggb.bili.doves.top, 36645, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-(备用) 南通移动 🇸🇬 = ss, zxc.888888.wtf, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+中山移动 Oracle 🇸🇬 = ss, 218.204.179.60, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 安徽联通 🇹🇷 = ss, ah-weorijs.bijia.me, 30303, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
-安徽联通 🇳🇬 = ss, ah-weorijs.bijia.me, 20200, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
 安徽联通 🇩🇪 = ss, ah-weorijs.bijia.me, 20080, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-安徽联通 🇫🇷 = ss, ah-weorijs.bijia.me, 21800, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-安徽联通 🇬🇧 = ss, ah-weorijs.bijia.me, 22300, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
 
 广州移动 河内🇻🇳 = ss, gy-ksdjf79234l.bijia.me, 41313, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
+TEST = ss, sdcu01.duiha.cn, 25565, encrypt-method=aes-128-gcm, password=FGuyXW4rC8, tfo=false, udp-relay=true
+
 [Proxy Group]
-🚀 Manual Selection = select, 上海电信 🇯🇵, 南通移动 🇯🇵, 安徽联通 🇯🇵, (备用) 宁波移动 🇯🇵,(备用) 徐州移动 🇯🇵, (备用) 南通移动 🇯🇵,深圳移动 🇭🇰, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, (备用) 佛山移动2 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰, (备用) 宁波移动 Frontier, 深圳移动 🇸🇬, 广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬, 杭州移动 🇰🇷, 安徽联通 🇹🇷, 安徽联通 🇳🇬, 安徽联通 🇩🇪, 广州移动 河内🇻🇳, 安徽联通 🇫🇷, 安徽联通 🇬🇧
+🚀 Manual Selection = select, TEST,南通移动 🇯🇵, 安徽联通 🇯🇵,广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, 中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰,Frontier 🇺🇸, 深圳移动 🇸🇬,广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬, 中山移动 Oracle 🇸🇬 ,安徽联通 🇹🇷, 安徽联通 🇩🇪, 广州移动 河内🇻🇳
 
-🇭🇰 HK = select, 深圳移动 🇭🇰, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, (备用) 佛山移动2 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰
+🇭🇰 HK = select, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰
 
-🇭🇰 HK 2nd = select, 深圳移动 🇭🇰, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, (备用) 佛山移动2 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰
+🇭🇰 HK 2nd = select, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰,深圳移动 🇭🇰,山东移动 🇭🇰
 
-🇯🇵 JP = select, 上海电信 🇯🇵, 南通移动 🇯🇵, 安徽联通 🇯🇵, (备用) 宁波移动 🇯🇵,(备用) 徐州移动 🇯🇵, (备用) 南通移动 🇯🇵
-🇺🇲 US = select, (备用) 宁波移动 Frontier
-🇸🇬 SG = select, 深圳移动 🇸🇬, 广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬
-🇰🇷 KR= select, 杭州移动 🇰🇷
-🌍 OT = select, 安徽联通 🇹🇷, 安徽联通 🇳🇬, 安徽联通 🇩🇪, 广州移动 河内🇻🇳, 安徽联通 🇫🇷, 安徽联通 🇬🇧
+🇯🇵 JP = select, 南通移动 🇯🇵, 安徽联通 🇯🇵
+🇺🇲 US = select, Frontier 🇺🇸
+🇸🇬 SG = select, 深圳移动 🇸🇬,广州移动 🇸🇬, 深圳移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬, 中山移动 Oracle 🇸🇬
+🇰🇷 KR= select, DIRECT
+🌍 OT = select, 安徽联通 🇹🇷,  安徽联通 🇩🇪, 广州移动 河内🇻🇳
 
 
 
@@ -82,6 +82,8 @@ HKT HY2🇭🇰 = hysteria2, hy.mother.rip, 34027, password=37f4b5b3-cd5b-4aef-a
 💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
 📹 Youtube = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
 🎥 Netflix = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🇭🇰 IP = select, 🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
+🇸🇬 IP = select, 🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
 
 🌍 International Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
 🇨🇳 CN Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇰🇷 KR, 🌍 OT,🚀 Manual Selection,DIRECT
@@ -114,4 +116,6 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 Direct,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 Direct,update-interval=86400
 GEOIP,CN,🎯 Direct
+GEOIP,HK,🇭🇰 IP
+GEOIP,SG,🇸🇬 IP
 FINAL,🐟 TheRest
