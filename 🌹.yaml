@@ -8,12 +8,14 @@ proxies:
   - {name: 南通移动 🇯🇵, server: js-sklfwoeiu123r.bijia.me, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 安徽联通 🇯🇵, server: ah-weorijs.bijia.me, port: 25565, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 湖北联通 🇯🇵, server: whcu.v6.al, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 山东联通 🇯🇵, server: sdcu01.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 山东移动 🇯🇵, server: sdkk.yunnode.win, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 中山移动 🇭🇰, server: 218.204.179.60, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 广州移动 🇭🇰, server: gy-ksdjf79234l.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 南通移动 🇭🇰, server: js-sklfwoeiu123r.bijia.me, port: 34684, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 深圳移动 🇭🇰, server: szchbggcguj-001cm.v6.al, port: 10462, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 山东移动 🇭🇰, server: 120.220.19.102, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 (备用) 宁波移动 🇭🇰, server: 120-199-84-180.sslip.io, port: 12350, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 (备用) 宁波移动 🇭🇰, server: 23.172.40.166, port: 31562, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: (备用) 佛山移动 🇭🇰, server: cmv5.pgfo.doves.top, port: 30020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: Frontier 🇺🇸, server: Jerry.js2398erj234.bijia.me, port: 10713, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 深圳移动 🇸🇬, server: szchbggcguj-001cm.v6.al, port: 21380, type: ss, cipher: aes-128-gcm, password: IAKIOI}
@@ -25,7 +27,7 @@ proxies:
   - {name: 🇨🇳 安徽联通 🇹🇷, server: ah-weorijs.bijia.me, port: 30303, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 安徽联通 🇩🇪, server: ah-weorijs.bijia.me, port: 20080, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 广州移动 河内🇻🇳, server: gy-ksdjf79234l.bijia.me, port: 41313, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: TEST, server: sdcu01.duiha.cn, port: 25565, type: ss, cipher: aes-128-gcm, password: FGuyXW4rC8, udp: true}
+  - {name: TEST, server: 83.147.42.4, port: 17416, type: vmess, uuid: 1e915ca0-d3e2-40a0-91c0-d33bb073845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,6 +37,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -62,6 +66,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -89,6 +95,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -115,6 +123,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -141,6 +151,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -167,6 +179,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -194,6 +208,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -237,6 +253,8 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
+      - 🇨🇳 山东联通 🇯🇵
+      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
