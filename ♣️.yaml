@@ -27,6 +27,10 @@ DIRECT = direct
 
 南通移动 🇯🇵 = ss, js-sklfwoeiu123r.bijia.me, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 安徽联通 🇯🇵 = ss, ah-weorijs.bijia.me, 25565, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+湖北联通 🇯🇵 = ss, whcu.v6.al, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+山东联通 🇯🇵 = ss, sdcu01.qingqiu.buzz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true, tfo=false, udp-relay=false
+
+山东移动 🇯🇵 = ss, sdkk.yunnode.win, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true, tfo=false, udp-relay=false
 
 中山移动 🇭🇰 = ss, 218.204.179.60, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
@@ -34,7 +38,7 @@ DIRECT = direct
 南通移动 🇭🇰 = ss, js-sklfwoeiu123r.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 深圳移动 🇭🇰 = ss, szchbggcguj-001cm.v6.al, 10462, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 山东移动 🇭🇰 = ss, 120.220.19.102, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 宁波移动 🇭🇰 = ss, 120-199-84-180.sslip.io, 12350, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用) 宁波移动 🇭🇰 = ss, 23.172.40.166, 31562, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 (备用) 佛山移动 🇭🇰 = ss, cmv5.pgfo.doves.top, 30020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
@@ -44,14 +48,16 @@ HKT HY2🇭🇰 = hysteria2, wq.ganjuzx.cn, 41215, password=cf5f4d79-b8b6-43e5-a
 
 Frontier 🇺🇸 = ss, Jerry.js2398erj234.bijia.me, 10713, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-深圳移动 🇸🇬 = ss, szchbggcguj-001cm.v6.al, 10050, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+深圳移动 🇸🇬 = ss, szchbggcguj-001cm.v6.al, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 广州移动 🇸🇬 = ss, gy-ksdjf79234l.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 江苏移动 🇸🇬 = ss, js-sklfwoeiu123r.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 安徽联通 🇸🇬 = ss, ah-weorijs.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-(备用) 宁波移动 🇸🇬 = ss, ggb.bili.doves.top, 36645, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
-中山移动 Oracle 🇸🇬 = ss, 218.204.179.60, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+中山移动 🇸🇬 = ss, 218.204.179.60, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+
+武汉联通 🇸🇬 = ss, whcu.v6.al, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 安徽联通 🇹🇷 = ss, ah-weorijs.bijia.me, 30303, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
@@ -61,18 +67,18 @@ Frontier 🇺🇸 = ss, Jerry.js2398erj234.bijia.me, 10713, encrypt-method=aes-1
 
 广州移动 河内🇻🇳 = ss, gy-ksdjf79234l.bijia.me, 41313, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-TEST = ss, sdcu01.duiha.cn, 25565, encrypt-method=aes-128-gcm, password=FGuyXW4rC8, tfo=false, udp-relay=true
+TEST = vmess, 83.147.42.4, 17416, username=1e915ca0-d3e2-40a0-91c0-d33bb073845b, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
-🚀 Manual Selection = select, TEST,南通移动 🇯🇵, 安徽联通 🇯🇵,广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, 中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰,Frontier 🇺🇸, 深圳移动 🇸🇬,广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬, 中山移动 Oracle 🇸🇬 ,安徽联通 🇹🇷, 安徽联通 🇩🇪, 广州移动 河内🇻🇳
+🚀 Manual Selection = select, TEST,南通移动 🇯🇵, 安徽联通 🇯🇵,湖北联通 🇯🇵,山东联通 🇯🇵,山东移动 🇯🇵,广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, 中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰,Frontier 🇺🇸, 深圳移动 🇸🇬,广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, 中山移动 🇸🇬 ,武汉联通 🇸🇬,安徽联通 🇹🇷, 安徽联通 🇩🇪, 广州移动 河内🇻🇳
 
 🇭🇰 HK = select, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰
 
 🇭🇰 HK 2nd = select, 广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰,中山移动 🇭🇰, HKT HY2🇭🇰,深圳移动 🇭🇰,山东移动 🇭🇰
 
-🇯🇵 JP = select, 南通移动 🇯🇵, 安徽联通 🇯🇵
+🇯🇵 JP = select, 南通移动 🇯🇵, 安徽联通 🇯🇵,湖北联通 🇯🇵,山东联通 🇯🇵,山东移动 🇯🇵
 🇺🇲 US = select, Frontier 🇺🇸
-🇸🇬 SG = select, 深圳移动 🇸🇬,广州移动 🇸🇬, 深圳移动 🇸🇬, 安徽联通 🇸🇬, (备用) 宁波移动 🇸🇬, (备用) 宁波移动 🇸🇬, 中山移动 Oracle 🇸🇬
+🇸🇬 SG = select, 深圳移动 🇸🇬,广州移动 🇸🇬, 深圳移动 🇸🇬, 安徽联通 🇸🇬, 中山移动 🇸🇬,武汉联通 🇸🇬
 🇰🇷 KR= select, DIRECT
 🌍 OT = select, 安徽联通 🇹🇷,  安徽联通 🇩🇪, 广州移动 河内🇻🇳
 
