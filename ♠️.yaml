@@ -25,36 +25,34 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 DIRECT = direct
 
 
-南通移动 🇯🇵 = ss, js-sklfwoeiu123r.bijia.me, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-安徽联通 🇯🇵 = ss, ah-weorijs.bijia.me, 25565, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+南通移动 🇯🇵 = ss, Jerry.zjsdi823.bijia.me, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+安徽联通 🇯🇵 = ss, Jerry.ahwerkxc.bijia.me, 25565, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 湖北联通 🇯🇵 = ss, whcu.v6.al, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 中山移动 🇭🇰 = ss, 218.204.179.60, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 广州移动 🇭🇰 = ss, gy-ksdjf79234l.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-南通移动 🇭🇰 = ss, js-sklfwoeiu123r.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-深圳移动 🇭🇰 = ss, szchbggcguj-001cm.v6.al, 10462, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+南通移动 🇭🇰 = ss, Jerry.zjsdi823.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+深圳移动 🇭🇰 = ss, hb.yunnode.win, 10462, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 山东移动 🇭🇰 = ss, 120.220.19.102, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-(备用) 宁波移动 🇭🇰 = ss, 120-199-84-180.sslip.io, 12350, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+(备用) 宁波移动 🇭🇰 = ss, jd.bangumi.doves.top, 30418, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 (备用) 佛山移动 🇭🇰 = ss, cmv5.pgfo.doves.top, 30020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-
-HKT HY2🇭🇰 = hysteria2, wq.ganjuzx.cn, 41215, password=cf5f4d79-b8b6-43e5-aa35-72f94c29ba1c, skip-cert-verify=false, tfo=false, udp-relay=false
-
+HKT HY2🇭🇰 = hysteria2, hy.palworld.rip, 50179, password=Se7RAuFZ8Lzg
 
 Frontier 🇺🇸 = ss, Jerry.js2398erj234.bijia.me, 10713, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-深圳移动 🇸🇬 = ss, szchbggcguj-001cm.v6.al, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+深圳移动 🇸🇬 = ss, Jerry.zjsdi823.bijia.me, 10101, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 广州移动 🇸🇬 = ss, gy-ksdjf79234l.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-江苏移动 🇸🇬 = ss, js-sklfwoeiu123r.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-安徽联通 🇸🇬 = ss, ah-weorijs.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+江苏移动 🇸🇬 = ss, Jerry.zjsdi823.bijia.me, 10101, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+安徽联通 🇸🇬 = ss, Jerry.ahwerkxc.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 
-中山移动 🇸🇬 = ss, 218.204.179.60, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+中山移动 🇸🇬 = ss, cmv5.pgfo.doves.top, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
-武汉联通 🇸🇬 = ss, whcu.v6.al, 21380, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+武汉联通 🇸🇬 = ss, ggb.bili.doves.top, 47866, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 安徽联通 🇹🇷 = ss, ah-weorijs.bijia.me, 30303, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
@@ -64,7 +62,7 @@ Frontier 🇺🇸 = ss, Jerry.js2398erj234.bijia.me, 10713, encrypt-method=aes-1
 
 广州移动 河内🇻🇳 = ss, gy-ksdjf79234l.bijia.me, 41313, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-TEST = ss, sdcu01.duiha.cn, 25565, encrypt-method=aes-128-gcm, password=FGuyXW4rC8, tfo=false, udp-relay=true
+TEST = vmess, 83.147.42.4, 17416, username=1e915ca0-d3e2-40a0-91c0-d33bb073845b, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
 🚀 Manual Selection = select, TEST,南通移动 🇯🇵, 安徽联通 🇯🇵,湖北联通 🇯🇵,广州移动 🇭🇰, 南通移动 🇭🇰, (备用) 宁波移动 🇭🇰, (备用) 佛山移动 🇭🇰, 中山移动 🇭🇰, HKT HY2🇭🇰, 深圳移动 🇭🇰,山东移动 🇭🇰,Frontier 🇺🇸, 深圳移动 🇸🇬,广州移动 🇸🇬, 江苏移动 🇸🇬, 安徽联通 🇸🇬, 中山移动 🇸🇬 ,武汉联通 🇸🇬,安徽联通 🇹🇷, 安徽联通 🇩🇪, 广州移动 河内🇻🇳
