@@ -5,25 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 南通移动 🇯🇵, server: js-sklfwoeiu123r.bijia.me, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 安徽联通 🇯🇵, server: ah-weorijs.bijia.me, port: 25565, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 南通移动 🇯🇵, server: Jerry.zjsdi823.bijia.me, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 安徽联通 🇯🇵, server: Jerry.ahwerkxc.bijia.me, port: 25565, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 湖北联通 🇯🇵, server: whcu.v6.al, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 山东联通 🇯🇵, server: sdcu01.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 山东移动 🇯🇵, server: sdkk.yunnode.win, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 中山移动 🇭🇰, server: 218.204.179.60, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 广州移动 🇭🇰, server: gy-ksdjf79234l.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 南通移动 🇭🇰, server: js-sklfwoeiu123r.bijia.me, port: 34684, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 深圳移动 🇭🇰, server: szchbggcguj-001cm.v6.al, port: 10462, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 南通移动 🇭🇰, server: Jerry.zjsdi823.bijia.me, port: 34684, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 深圳移动 🇭🇰, server: hb.yunnode.win, port: 10462, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 山东移动 🇭🇰, server: 120.220.19.102, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 (备用) 宁波移动 🇭🇰, server: 23.172.40.166, port: 31562, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 (备用) 宁波移动 🇭🇰, server: jd.bangumi.doves.top, port: 30418, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: (备用) 佛山移动 🇭🇰, server: cmv5.pgfo.doves.top, port: 30020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: Frontier 🇺🇸, server: Jerry.js2398erj234.bijia.me, port: 10713, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 深圳移动 🇸🇬, server: szchbggcguj-001cm.v6.al, port: 21380, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 深圳移动 🇸🇬, server: Jerry.zjsdi823.bijia.me, port: 10101, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 广州移动 🇸🇬, server: gy-ksdjf79234l.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 江苏移动 🇸🇬, server: js-sklfwoeiu123r.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 安徽联通 🇸🇬, server: ah-weorijs.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 中山移动 🇸🇬, server: 218.204.179.60, port: 21380, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 武汉联通 🇸🇬, server: whcu.v6.al, port: 21380, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 江苏移动 🇸🇬, server: Jerry.zjsdi823.bijia.me, port: 10101, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 安徽联通 🇸🇬, server: Jerry.ahwerkxc.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 中山移动 🇸🇬, server: cmv5.pgfo.doves.top, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 武汉联通 🇸🇬, server: ggb.bili.doves.top, port: 47866, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 安徽联通 🇹🇷, server: ah-weorijs.bijia.me, port: 30303, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 安徽联通 🇩🇪, server: ah-weorijs.bijia.me, port: 20080, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 广州移动 河内🇻🇳, server: gy-ksdjf79234l.bijia.me, port: 41313, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
@@ -37,8 +35,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -66,8 +62,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -95,8 +89,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -123,8 +115,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -151,8 +141,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -179,8 +167,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -208,8 +194,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
@@ -253,8 +237,6 @@ proxy-groups:
       - 南通移动 🇯🇵
       - 🇨🇳 安徽联通 🇯🇵
       - 🇨🇳 湖北联通 🇯🇵
-      - 🇨🇳 山东联通 🇯🇵
-      - 🇨🇳 山东移动 🇯🇵
       - 中山移动 🇭🇰
       - 🇨🇳 广州移动 🇭🇰
       - 南通移动 🇭🇰
