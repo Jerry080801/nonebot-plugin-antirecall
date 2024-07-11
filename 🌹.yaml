@@ -5,27 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ZJCM 🇯🇵, server: Jerry.zjs8i823.bijia.me, port: 53315, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: ZJCM 🇯🇵, server: nbsdfhi234sdkf.bijia.me, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: ZJCM2 🇯🇵, server: video.111365.xyz, port: 15313, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: AHCM 🇯🇵, server: Jerry.zjs8i823.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: AHCM2 🇯🇵, server: inbound.28dh7cb3d.ykkcloud.link, port: 10013, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: SDCU 🇯🇵, server: Jerry.ah4234kxc.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: SDCU2 🇯🇵, server: sdcu_20240509.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: BC 🇯🇵, server: iplcjp123dhf2.bijia.me, port: 27360, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: BC 🇯🇵, server: dx.111365.xyz, port: 47594, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: BC2 🇯🇵, server: 120.199.91.25, port: 51761, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: GZCM 🇭🇰, server: Jerry.g45sdflfpp4.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: AHCM 🇭🇰, server: Jerry.zjs8i823.bijia.me, port: 34684, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: ZJCM 🇭🇰, server: nbsdfhi234sdkf.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: BC 🇭🇰, server: whyd.111365.xyz, port: 35664, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: BC2 🇭🇰, server: iplchksfoiuwe.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: GDCM 🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: GDCM2 🇸🇬, server: 183.239.109.83, port: 11111, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: BC2 🇭🇰, server: jspz629.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: BC3 🇭🇰, server: video.111365.xyz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: GDCM 🇸🇬, server: Jerry.g45sdflfpp4.bijia.me, port: 36446, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: GDCM2 🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: AHCM 🇸🇬, server: Jerry.zjs8i823.bijia.me, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: SDCU 🇸🇬, server: Jerry.ah4234kxc.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: SDCU2 🇸🇬, server: sdcu_20240509.qingqiu.buzz, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: BC 🇸🇬, server: whyd.111365.xyz, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: BC2 🇸🇬, server: 183.239.109.83, port: 11111, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: SDCU 🇫🇷, server: Jerry.ah4234kxc.bijia.me, port: 13581, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
   - {name: SDCU 🇩🇪, server: Jerry.ah4234kxc.bijia.me, port: 46475, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
+  - {name: ZJCM 🇬🇧, server: video.111365.xyz, port: 10082, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
+  - {name: SDCU 🇬🇧, server: Jerry.ah4234kxc.bijia.me, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
+  - {name: ZJCT 🇩🇪, server: dx.111365.xyz, port: 48099, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
+  - {name: ZJCT 🇫🇷, server: dx.111365.xyz, port: 49401, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
+  - {name: ZJCT 🇬🇧, server: dx.111365.xyz, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
+  - {name: BJCU 🇩🇪, server: airport.tidc.asia, port: 5271, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
   - {name: JSCM 🇺🇸, server: 120.199.90.67, port: 17794, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
   - {name: ZJCM 🇺🇸, server: Jerry.zjsdi823.bijia.me, port: 12125, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: TEST 🇺🇸, server: Jerry.zjsdi823.bijia.me, port: 30372, type: ss, cipher: aes-256-gcm, password: fAF8cPCzhS}
@@ -48,14 +56,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -78,14 +94,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -108,14 +132,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -137,14 +169,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -166,14 +206,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -195,14 +243,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -225,14 +281,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -271,14 +335,22 @@ proxy-groups:
       - ZJCM 🇭🇰
       - BC 🇭🇰
       - BC2 🇭🇰
+      - BC3 🇭🇰
       - GDCM 🇸🇬
       - GDCM2 🇸🇬
       - AHCM 🇸🇬
       - SDCU 🇸🇬
       - SDCU2 🇸🇬
       - BC 🇸🇬
+      - BC2 🇸🇬
       - SDCU 🇫🇷
       - SDCU 🇩🇪
+      - ZJCM 🇬🇧
+      - SDCU 🇬🇧
+      - ZJCT 🇩🇪
+      - ZJCT 🇫🇷
+      - ZJCT 🇬🇧
+      - BJCU 🇩🇪
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
       - TEST 🇺🇸
@@ -2154,13 +2226,10 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
-  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
-  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2660,6 +2729,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -3725,6 +3795,5 @@ rules:
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,172.3.0.0/12,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
