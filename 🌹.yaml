@@ -10,7 +10,7 @@ proxies:
   - {name: AHCM 🇯🇵, server: Jerry.zjs8i823.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: AHCM2 🇯🇵, server: inbound.28dh7cb3d.ykkcloud.link, port: 10013, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: SDCU 🇯🇵, server: Jerry.ah4234kxc.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: SDCU2 🇯🇵, server: sdcu_20240509.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: SDCU2 🇯🇵, server: 39.91.137.52, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: BC 🇯🇵, server: dx.111365.xyz, port: 47594, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: BC2 🇯🇵, server: 120.199.91.25, port: 51761, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: GZCM 🇭🇰, server: Jerry.g45sdflfpp4.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
@@ -23,7 +23,7 @@ proxies:
   - {name: GDCM2 🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: AHCM 🇸🇬, server: Jerry.zjs8i823.bijia.me, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: SDCU 🇸🇬, server: Jerry.ah4234kxc.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: SDCU2 🇸🇬, server: sdcu_20240509.qingqiu.buzz, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: SDCU2 🇸🇬, server: 39.91.137.52, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: BC 🇸🇬, server: whyd.111365.xyz, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: BC2 🇸🇬, server: 183.239.109.83, port: 11111, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: SDCU 🇫🇷, server: Jerry.ah4234kxc.bijia.me, port: 13581, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
