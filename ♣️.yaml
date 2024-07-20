@@ -24,47 +24,58 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-ZJCM 🇯🇵 = ss, nbsdfhi234sdkf.bijia.me, 25565 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-ZJCM2 🇯🇵 = ss, video.111365.xyz, 15313 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM 🇯🇵 = ss, Jerry.zjsdi823.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM2 🇯🇵 = ss, inbound.28dh7cb3d.ykkcloud.link, 10013, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SDCU 🇯🇵 = ss, Jerry.ahwerkxc.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SDCU2 🇯🇵 = ss, sdcu_20240509.qingqiu.buzz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC 🇯🇵 = ss, iplcjpsjkdhf2.bijia.me, 27360, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC2 🇯🇵 = ss, 120.199.91.25, 51761, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCM 🇯🇵 = ss, nbsdfweirusd.bijia.me, 10111 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCM2 🇯🇵 = ss, nbsdfhi234sdkf.bijia.me, 10111 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JSCM 🇯🇵 = ss, jscm.palworld.rip, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HBCU 🇯🇵 = ss, Jerry.ah4234kxc.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+AHCM BC🇯🇵 = ss, inbound.28dh7cb3d.ykkcloud.link, 10013, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SDCU BC🇯🇵 = ss, 39.91.137.52, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCT BC🇯🇵 = ss, dx.111365.xyz, 47594, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCM BC🇯🇵 = ss,hz24718.qingqiu.buzz,12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SHCM BC🇯🇵 = ss, sh720.qingqiu.buzz, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-GZCM 🇭🇰 = ss, Jerry.gyjkslf234.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM 🇭🇰 = ss, Jerry.zjsdi823.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-ZJCM 🇭🇰 = ss, nbsdfhi234sdkf.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC 🇭🇰 = ss, whyd.111365.xyz, 35664, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC2 🇭🇰 = ss, iplchksfoiuwe.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HKT HY2 🇭🇰 = hysteria2, hy.palworld.rip, 40235, password=Se7RAuFZ8Lzg
+ZJCM 🇭🇰 = ss, nbsdfweirusd.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCM2 🇭🇰 = ss, nbsdfhi234sdkf.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+GDCM 🇭🇰 = ss,Jerry.gy-sdfk34sdoif.bijia.me, 12346, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JSCM BC🇭🇰 = ss, jspz629.qingqiu.buzz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+GDCM BC🇭🇰 = ss, whyd.111365.xyz, 35664, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+ZJCT BC🇭🇰 = ss, dx.111365.xyz, 47415, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SHCM BC🇭🇰 = ss, sh720.qingqiu.buzz, 45153, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HKT HY2 🇭🇰 = hysteria2, hkt1.hypernat.com, 40235, password=Se7RAuFZ8Lzg
 
-GDCM 🇸🇬 = ss, 183.239.109.115, 36446, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-GDCM2 🇸🇬 = ss, 183.239.109.83, 11111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-AHCM 🇸🇬 = ss, Jerry.zjsdi823.bijia.me, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SDCU 🇸🇬 = ss, Jerry.ahwerkxc.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+GDCM 🇸🇬 = ss, Jerry.g45sdflfpp4.bijia.me, 36446, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+GDCM2 🇸🇬 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+AHCM 🇸🇬 = ss, nbsdfweirusd.bijia.me, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+SDCU 🇸🇬 = ss, Jerry.ah4234kxc.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 SDCU2 🇸🇬 = ss, sdcu_20240509.qingqiu.buzz, 44969, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 BC 🇸🇬 = ss, whyd.111365.xyz, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+BC2 🇸🇬 = ss, gdcm3.palworld.rip, 11111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+OC HY2 🇸🇬 = hysteria2, 158.178.228.215, 40403, password=5682f92e, skip-cert-verify=true, sni=www.bing.com
 
-SDCU 🇫🇷 = ss, Jerry.ahwerkxc.bijia.me, 13581, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
-SDCU 🇩🇪 = ss, Jerry.ahwerkxc.bijia.me, 46475, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
+SDCU 🇫🇷 = ss, Jerry.ah4234kxc.bijia.me, 13581, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
+SDCU 🇩🇪 = ss, Jerry.ah4234kxc.bijia.me, 46475, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
+ZJCM 🇬🇧 = ss, video.111365.xyz, 10082, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
+SDCU 🇬🇧 = ss, Jerry.ah4234kxc.bijia.me, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
+ZJCT 🇩🇪 = ss, dx.111365.xyz, 48099, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
+ZJCT 🇫🇷 = ss, dx.111365.xyz, 49401, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
+ZJCT 🇬🇧 = ss, langjishbgp.ianong.cn, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
+BJCU 🇩🇪 = ss, airport.tidc.asia, 5271, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
 
+ASH 🇺🇸 = ss, dx.111365.xyz, 46979, encrypt-method=aes-256-gcm, password=cTBkQ2VJc3FZYWRLOHdmVXdHNFYyYnJlRThLWWl4Mk8=, tfo=false
 JSCM 🇺🇸 = ss, 120.199.90.67, 17794, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-
 ZJCM 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 12125, encrypt-method=aes-128-gcm, password=IAKIOI
 TEST 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 30372, encrypt-method=aes-256-gcm, password=fAF8cPCzhS
 
 [Proxy Group]
-🚀 Manual Selection = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, AHCM 🇯🇵, AHCM2 🇯🇵, SDCU 🇯🇵,SDCU2 🇯🇵, BC 🇯🇵, BC2 🇯🇵, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, SDCU 🇫🇷, SDCU 🇩🇪
+🚀 Manual Selection = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, JSCM 🇯🇵, HBCU 🇯🇵, AHCM BC🇯🇵, SDCU BC🇯🇵, ZJCT BC🇯🇵, ZJCM BC🇯🇵, SHCM BC🇯🇵,GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰, BC4 🇭🇰,GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧, BJCU 🇩🇪,ASH 🇺🇸
 
 🇭🇰 HK = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
 
 🇭🇰 HK 2nd = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
 
-🇯🇵 JP = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, AHCM 🇯🇵, AHCM2 🇯🇵, SDCU 🇯🇵,SDCU2 🇯🇵, BC 🇯🇵, BC2 🇯🇵
-🇺🇲 US = select, JSCM 🇺🇸,ZJCM 🇺🇸, TEST 🇺🇸, SDCU 🇫🇷, SDCU 🇩🇪
-🇸🇬 SG = select, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬
+🇯🇵 JP = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, JSCM 🇯🇵, HBCU 🇯🇵, AHCM BC🇯🇵, SDCU BC🇯🇵, ZJCT BC🇯🇵, ZJCM BC🇯🇵, SHCM BC🇯🇵
+🇺🇲 US = select, ASH 🇺🇸,JSCM 🇺🇸,ZJCM 🇺🇸, TEST 🇺🇸, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧,BJCU 🇩🇪
+🇸🇬 SG = select, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬
 
 📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
 💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
