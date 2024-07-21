@@ -21,21 +21,16 @@ proxies:
   - {name: GDCM BC🇭🇰, server: whyd.111365.xyz, port: 35664, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: ZJCT BC🇭🇰, server: dx.111365.xyz, port: 47415, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: SHCM BC🇭🇰, server: sh720.qingqiu.buzz, port: 45153, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: GDCM 🇸🇬, server: Jerry.g45sdflfpp4.bijia.me, port: 36446, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: GDCM2 🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: AHCM 🇸🇬, server: nbsdfweirusd.bijia.me, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: SDCU 🇸🇬, server: Jerry.ah4234kxc.bijia.me, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: SDCU2 🇸🇬, server: sdcu_20240509.qingqiu.buzz, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: BC 🇸🇬, server: whyd.111365.xyz, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: BC2 🇸🇬, server: gdcm3.palworld.rip, port: 11111, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: SDCU 🇫🇷, server: Jerry.ah4234kxc.bijia.me, port: 13581, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
-  - {name: SDCU 🇩🇪, server: Jerry.ah4234kxc.bijia.me, port: 46475, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: ZJCM 🇬🇧, server: video.111365.xyz, port: 10082, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
-  - {name: SDCU 🇬🇧, server: Jerry.ah4234kxc.bijia.me, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
-  - {name: ZJCT 🇩🇪, server: dx.111365.xyz, port: 48099, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: ZJCT 🇫🇷, server: dx.111365.xyz, port: 49401, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
-  - {name: ZJCT 🇬🇧, server: langjishbgp.ianong.cn, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
-  - {name: BJCU 🇩🇪, server: airport.tidc.asia, port: 5271, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
+  - {name: ZJCM 🇸🇬, server: nbsdfweirusd.bijia.me, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: ZJCM2 🇸🇬, server: nbsdfhi234sdkf.bijia.me, port: 53501, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: GDCM 🇸🇬, server: Jerry.gy-sdfk34sdoif.bijia.me, port: 38347, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: JSCM BC🇸🇬, server: jspz629.qingqiu.buzz, port: 48785, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: GDCM2 BC🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: GDCM3 BC🇸🇬, server: 123.88.148.41, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: SDCU BC🇸🇬, server: 39.91.137.52, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: HBCU 🇫🇷, server: Jerry.ah4234kxc.bijia.me, port: 13581, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
+  - {name: HBCU 🇩🇪, server: Jerry.ah4234kxc.bijia.me, port: 46475, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
+  - {name: HBCU 🇬🇧, server: Jerry.ah4234kxc.bijia.me, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
   - {name: ASH 🇺🇸, server: dx.111365.xyz, port: 46979, type: ss, cipher: aes-256-gcm, password: cTBkQ2VJc3FZYWRLOHdmVXdHNFYyYnJlRThLWWl4Mk8}
   - {name: JSCM 🇺🇸, server: 120.199.90.67, port: 17794, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
   - {name: ZJCM 🇺🇸, server: Jerry.zjsdi823.bijia.me, port: 12125, type: ss, cipher: aes-128-gcm, password: IAKIOI}
@@ -62,21 +57,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -103,21 +93,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -144,21 +129,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -184,21 +164,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -224,21 +199,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -264,21 +234,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -305,21 +270,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
@@ -362,21 +322,16 @@ proxy-groups:
       - GDCM BC🇭🇰
       - ZJCT BC🇭🇰
       - SHCM BC🇭🇰
+      - ZJCM 🇸🇬
+      - ZJCM2 🇸🇬
       - GDCM 🇸🇬
-      - GDCM2 🇸🇬
-      - AHCM 🇸🇬
-      - SDCU 🇸🇬
-      - SDCU2 🇸🇬
-      - BC 🇸🇬
-      - BC2 🇸🇬
-      - SDCU 🇫🇷
-      - SDCU 🇩🇪
-      - ZJCM 🇬🇧
-      - SDCU 🇬🇧
-      - ZJCT 🇩🇪
-      - ZJCT 🇫🇷
-      - ZJCT 🇬🇧
-      - BJCU 🇩🇪
+      - JSCM BC🇸🇬
+      - GDCM2 BC🇸🇬
+      - GDCM3 BC🇸🇬
+      - SDCU BC🇸🇬
+      - HBCU 🇫🇷
+      - HBCU 🇩🇪
+      - HBCU 🇬🇧
       - ASH 🇺🇸
       - JSCM 🇺🇸
       - ZJCM 🇺🇸
