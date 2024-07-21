@@ -1,29 +1,3 @@
-#!MANAGED-CONFIG https://api.v1.mk/sub?config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&expand=true&fdn=false&insert=false&list=false&scv=false&target=surge&tfo=false&udp=false&url=https%3A%2F%2Fsub.id9.cc%2Fsub%3Ftarget%3Dclash%26new_name%3Dtrue%26url%3Dss%253A%252F%252FYWVzLTEyOC1nY206SUFLSU9J%254042.3.68.15%253A50035%2523233boy-ss-42.3.68.15%26insert%3Dfalse%26config%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252FACL4SSR%252FACL4SSR%252Fmaster%252FClash%252Fconfig%252FACL4SSR_Online.ini&ver=4&xudp=false interval=86400 strict=false
-
-[General]
-loglevel = notify
-bypass-system = true
-skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
-#DNS设置或根据自己网络情况进行相应设置
-bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
-external-controller-access = password@0.0.0.0:6170
-http-api = password@0.0.0.0:6171
-test-timeout = 5
-http-api-web-dashboard = true
-exclude-simple-hostnames = true
-allow-wifi-access = true
-http-listen = 0.0.0.0:7890
-socks5-listen = 0.0.0.0:7891
-wifi-access-http-port = 6152
-wifi-access-socks5-port = 6153
-
-[Script]
-http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-
-[Proxy]
-DIRECT = direct
-
 ZJCM 🇯🇵 = ss, nbsdfweirusd.bijia.me, 10111 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 ZJCM2 🇯🇵 = ss, nbsdfhi234sdkf.bijia.me, 10111 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 JSCM 🇯🇵 = ss, jscm.palworld.rip, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
@@ -43,73 +17,20 @@ ZJCT BC🇭🇰 = ss, dx.111365.xyz, 47415, encrypt-method=aes-128-gcm, password
 SHCM BC🇭🇰 = ss, sh720.qingqiu.buzz, 45153, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 HKT HY2 🇭🇰 = hysteria2, hkt1.hypernat.com, 40235, password=Se7RAuFZ8Lzg
 
-GDCM 🇸🇬 = ss, Jerry.g45sdflfpp4.bijia.me, 36446, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-GDCM2 🇸🇬 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-AHCM 🇸🇬 = ss, nbsdfweirusd.bijia.me, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SDCU 🇸🇬 = ss, Jerry.ah4234kxc.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SDCU2 🇸🇬 = ss, sdcu_20240509.qingqiu.buzz, 44969, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-BC 🇸🇬 = ss, whyd.111365.xyz, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-BC2 🇸🇬 = ss, gdcm3.palworld.rip, 11111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+ZJCM 🇸🇬 = ss, nbsdfweirusd.bijia.me, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+ZJCM2 🇸🇬 = ss, nbsdfhi234sdkf.bijia.me,53501, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+GDCM 🇸🇬 = ss, Jerry.gy-sdfk34sdoif.bijia.me, 38347, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+JSCM BC🇸🇬 = ss, jspz629.qingqiu.buzz, 48785, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+GDCM2 BC🇸🇬 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+GDCM3 BC🇸🇬 = ss, 123.88.148.41, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+SDCU BC🇸🇬 = ss, 39.91.137.52, 44969, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 OC HY2 🇸🇬 = hysteria2, 158.178.228.215, 40403, password=5682f92e, skip-cert-verify=true, sni=www.bing.com
 
-SDCU 🇫🇷 = ss, Jerry.ah4234kxc.bijia.me, 13581, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
-SDCU 🇩🇪 = ss, Jerry.ah4234kxc.bijia.me, 46475, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-ZJCM 🇬🇧 = ss, video.111365.xyz, 10082, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-SDCU 🇬🇧 = ss, Jerry.ah4234kxc.bijia.me, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-ZJCT 🇩🇪 = ss, dx.111365.xyz, 48099, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-ZJCT 🇫🇷 = ss, dx.111365.xyz, 49401, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
-ZJCT 🇬🇧 = ss, langjishbgp.ianong.cn, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-BJCU 🇩🇪 = ss, airport.tidc.asia, 5271, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
+HBCU 🇫🇷 = ss, Jerry.ah4234kxc.bijia.me, 13581, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
+HBCU 🇩🇪 = ss, Jerry.ah4234kxc.bijia.me, 46475, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
+HBCU 🇬🇧 = ss, Jerry.ah4234kxc.bijia.me, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
 
 ASH 🇺🇸 = ss, dx.111365.xyz, 46979, encrypt-method=aes-256-gcm, password=cTBkQ2VJc3FZYWRLOHdmVXdHNFYyYnJlRThLWWl4Mk8=, tfo=false
 JSCM 🇺🇸 = ss, 120.199.90.67, 17794, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
 ZJCM 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 12125, encrypt-method=aes-128-gcm, password=IAKIOI
 TEST 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 30372, encrypt-method=aes-256-gcm, password=fAF8cPCzhS
-
-[Proxy Group]
-🚀 Manual Selection = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, JSCM 🇯🇵, HBCU 🇯🇵, AHCM BC🇯🇵, SDCU BC🇯🇵, ZJCT BC🇯🇵, ZJCM BC🇯🇵, SHCM BC🇯🇵,GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰, BC4 🇭🇰,GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧, BJCU 🇩🇪,ASH 🇺🇸
-
-🇭🇰 HK = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
-
-🇭🇰 HK 2nd = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
-
-🇯🇵 JP = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, JSCM 🇯🇵, HBCU 🇯🇵, AHCM BC🇯🇵, SDCU BC🇯🇵, ZJCT BC🇯🇵, ZJCM BC🇯🇵, SHCM BC🇯🇵
-🇺🇲 US = select, ASH 🇺🇸,JSCM 🇺🇸,ZJCM 🇺🇸, TEST 🇺🇸, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧,BJCU 🇩🇪
-🇸🇬 SG = select, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬
-
-📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-📹 Youtube = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🎥 Netflix = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🌍 International Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🇨🇳 CN Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-📢 Google = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-Ⓜ️ Microsoft = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🍎 Apple = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🎯 Direct = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🛑 ADs = select,REJECT,DIRECT
-🍃 Apps = select,REJECT,DIRECT
-🐟 TheRest = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 ADs,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 Apps,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 Google,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ Microsoft,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 Apple,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 TG,update-interval=86400
-RULE-SET,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/OpenAI/OpenAI.list,💬 ChatGPT,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 Youtube,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 Netflix,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🇨🇳 CN Media,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 International Media,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 Manual Selection,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 Direct,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 Direct,update-interval=86400
-GEOIP,CN,🎯 Direct
-FINAL,🐟 TheRest
