@@ -5,285 +5,189 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ZJCM 🇯🇵, server: nbsdfweirusd.bijia.me, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCM2 🇯🇵, server: nbsdfhi234sdkf.bijia.me, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: JSCM 🇯🇵, server: jscm.palworld.rip, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: HBCU 🇯🇵, server: Jerry.ah4234kxc.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: AHCM BC🇯🇵, server: inbound.28dh7cb3d.ykkcloud.link, port: 10013, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: SDCU BC🇯🇵, server: 39.91.137.52, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCT BC🇯🇵, server: dx.111365.xyz, port: 47594, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCM BC🇯🇵, server: hz24718.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: SHCM BC🇯🇵, server: sh720.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCM 🇭🇰, server: nbsdfweirusd.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCM2 🇭🇰, server: nbsdfhi234sdkf.bijia.me, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: GDCM 🇭🇰, server: Jerry.gy-sdfk34sdoif.bijia.me, port: 12346, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: JSCM BC🇭🇰, server: jspz629.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: GDCM BC🇭🇰, server: whyd.111365.xyz, port: 35664, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCT BC🇭🇰, server: dx.111365.xyz, port: 47415, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: SHCM BC🇭🇰, server: sh720.qingqiu.buzz, port: 45153, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: ZJCM 🇸🇬, server: nbsdfweirusd.bijia.me, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: ZJCM2 🇸🇬, server: nbsdfhi234sdkf.bijia.me, port: 53501, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: GDCM 🇸🇬, server: Jerry.gy-sdfk34sdoif.bijia.me, port: 38347, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: JSCM BC🇸🇬, server: jspz629.qingqiu.buzz, port: 48785, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: GDCM2 BC🇸🇬, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: GDCM3 BC🇸🇬, server: 123.88.148.41, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: SDCU BC🇸🇬, server: 39.91.137.52, port: 44969, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: HBCU 🇫🇷, server: Jerry.ah4234kxc.bijia.me, port: 13581, type: ss, cipher: aes-256-gcm, password: dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo}
-  - {name: HBCU 🇩🇪, server: Jerry.ah4234kxc.bijia.me, port: 46475, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: HBCU 🇬🇧, server: Jerry.ah4234kxc.bijia.me, port: 45595, type: ss, cipher: aes-256-gcm, password: TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY}
-  - {name: ASH 🇺🇸, server: dx.111365.xyz, port: 46979, type: ss, cipher: aes-256-gcm, password: cTBkQ2VJc3FZYWRLOHdmVXdHNFYyYnJlRThLWWl4Mk8}
-  - {name: JSCM 🇺🇸, server: 120.199.90.67, port: 17794, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: ZJCM 🇺🇸, server: Jerry.zjsdi823.bijia.me, port: 12125, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: TEST 🇺🇸, server: Jerry.zjsdi823.bijia.me, port: 30372, type: ss, cipher: aes-256-gcm, password: fAF8cPCzhS}
+  - {name: 🇨🇳 宁波移动 🇯🇵, server: dd.yyds.rest, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 宁波移动 IPv6 🇯🇵, server: 2409:8c28:2481:6:0:1:0:96, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 上海联通 🇯🇵, server: rdgfe.vxzjv.xyz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 杭州电信 🇯🇵 备用, server: dx.111365.xyz, port: 47594, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 安徽移动 🇯🇵 备用, server: hz24718.qingqiu.buzz, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 东莞移动 🇭🇰, server: dg.yyds.rest, port: 22165, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 宁波移动 IPv6 🇭🇰, server: 2409:8c28:2481:6:0:1:0:96, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 东莞移动 IPv6 🇭🇰, server: 2409:8c54:1841:2008:0:1:0:54a, port: 12346, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 宁波移动 🇭🇰, server: dd.yyds.rest, port: 37546, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 广州移动 🇭🇰 备用, server: whyd.111365.xyz, port: 35664, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 东莞移动 🇸🇬, server: dg.yyds.rest, port: 24515, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 宁波移动 IPv6 🇸🇬, server: 2409:8c28:2481:6:0:1:0:96, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 东莞移动 IPv6 🇸🇬, server: 2409:8c54:1841:2008:0:1:0:54a, port: 38347, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 宁波移动 🇸🇬, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 宁波电信 🇸🇬, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 江苏移动 🇸🇬 备用, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 广东移动 🇸🇬 备用, server: 9527.888888.wtf, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: Test, server: 9527.888888.wtf, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,36 +210,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ZJCM 🇯🇵
-      - ZJCM2 🇯🇵
-      - JSCM 🇯🇵
-      - HBCU 🇯🇵
-      - AHCM BC🇯🇵
-      - SDCU BC🇯🇵
-      - ZJCT BC🇯🇵
-      - ZJCM BC🇯🇵
-      - SHCM BC🇯🇵
-      - ZJCM 🇭🇰
-      - ZJCM2 🇭🇰
-      - GDCM 🇭🇰
-      - JSCM BC🇭🇰
-      - GDCM BC🇭🇰
-      - ZJCT BC🇭🇰
-      - SHCM BC🇭🇰
-      - ZJCM 🇸🇬
-      - ZJCM2 🇸🇬
-      - GDCM 🇸🇬
-      - JSCM BC🇸🇬
-      - GDCM2 BC🇸🇬
-      - GDCM3 BC🇸🇬
-      - SDCU BC🇸🇬
-      - HBCU 🇫🇷
-      - HBCU 🇩🇪
-      - HBCU 🇬🇧
-      - ASH 🇺🇸
-      - JSCM 🇺🇸
-      - ZJCM 🇺🇸
-      - TEST 🇺🇸
+      - 🇨🇳 宁波移动 🇯🇵
+      - 🇨🇳 宁波移动 IPv6 🇯🇵
+      - 🇨🇳 上海联通 🇯🇵
+      - 🇨🇳 杭州电信 🇯🇵 备用
+      - 🇨🇳 安徽移动 🇯🇵 备用
+      - 东莞移动 🇭🇰
+      - 🇨🇳 宁波移动 IPv6 🇭🇰
+      - 东莞移动 IPv6 🇭🇰
+      - 🇨🇳 宁波移动 🇭🇰
+      - 🇨🇳 广州移动 🇭🇰 备用
+      - 东莞移动 🇸🇬
+      - 🇨🇳 宁波移动 IPv6 🇸🇬
+      - 东莞移动 IPv6 🇸🇬
+      - 🇨🇳 宁波移动 🇸🇬
+      - 🇨🇳 宁波电信 🇸🇬
+      - 🇨🇳 江苏移动 🇸🇬 备用
+      - 🇨🇳 广东移动 🇸🇬 备用
+      - Test
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
