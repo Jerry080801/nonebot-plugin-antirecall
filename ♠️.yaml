@@ -24,69 +24,56 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-ZJCM 🇯🇵 = ss, nbsdfhi234sdkf.bijia.me, 10111 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-ZJCM2 🇯🇵 = ss, video.111365.xyz, 15313 ,encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM 🇯🇵 = ss, Jerry.zjs8i823.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM2 🇯🇵 = ss, inbound.28dh7cb3d.ykkcloud.link, 10013, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SDCU 🇯🇵 = ss, Jerry.ah4234kxc.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SDCU2 🇯🇵 = ss, sdcu_20240509.qingqiu.buzz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC 🇯🇵 = ss, dx.111365.xyz, 47594, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC2 🇯🇵 = ss, 120.199.91.25, 51761, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波移动 🇯🇵 = ss, dd.yyds.rest, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波移动 IPv6 🇯🇵 = ss, 2409:8c28:2481:6:0:1:0:96, 10111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+上海联通 🇯🇵 = ss, rdgfe.vxzjv.xyz, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+杭州电信 🇯🇵 备用 = ss, dx.111365.xyz, 47594, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+安徽移动 🇯🇵 备用 = ss,hz24718.qingqiu.buzz,12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-GZCM 🇭🇰 = ss, Jerry.g45sdflfpp4.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-AHCM 🇭🇰 = ss, Jerry.zjs8i823.bijia.me, 34684, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-ZJCM 🇭🇰 = ss, nbsdfhi234sdkf.bijia.me, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC 🇭🇰 = ss, whyd.111365.xyz, 35664, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC2 🇭🇰 = ss, jspz629.qingqiu.buzz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-BC3 🇭🇰 = ss, video.111365.xyz, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HKT HY2 🇭🇰 = hysteria2, hy.palworld.rip, 40235, password=Se7RAuFZ8Lzg
+东莞移动 🇭🇰 = ss, dg.yyds.rest, 22165, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波移动 IPv6 🇭🇰 = ss, 2409:8c28:2481:6:0:1:0:96, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+东莞移动 IPv6 🇭🇰 = ss, 2409:8c54:1841:2008:0:1:0:54a, 12346, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波移动 🇭🇰 = ss,dd.yyds.rest, 37546, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+广州移动 🇭🇰 备用 = ss, whyd.111365.xyz, 35664, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-GDCM 🇸🇬 = ss, Jerry.g45sdflfpp4.bijia.me, 36446, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-GDCM2 🇸🇬 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-AHCM 🇸🇬 = ss, Jerry.zjs8i823.bijia.me, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SDCU 🇸🇬 = ss, Jerry.ah4234kxc.bijia.me, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SDCU2 🇸🇬 = ss, sdcu_20240509.qingqiu.buzz, 44969, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-BC 🇸🇬 = ss, whyd.111365.xyz, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-BC2 🇸🇬 = ss, 183.239.109.83, 11111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-OC HY2 🇸🇬 = hysteria2, 158.178.228.215, 40403, password=5682f92e, skip-cert-verify=true, sni=www.bing.com
+东莞移动 🇸🇬 = ss, dg.yyds.rest, 24515, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波移动 IPv6 🇸🇬 = ss, 2409:8c28:2481:6:0:1:0:96, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+东莞移动 IPv6 🇸🇬 = ss, 2409:8c54:1841:2008:0:1:0:54a, 38347, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+宁波移动 🇸🇬 = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+宁波电信 🇸🇬 = ss, go.yyds.rest, 34030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+江苏移动 🇸🇬 备用 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+广东移动 🇸🇬 备用 = ss, 9527.888888.wtf, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
-SDCU 🇫🇷 = ss, Jerry.ah4234kxc.bijia.me, 13581, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
-SDCU 🇩🇪 = ss, Jerry.ah4234kxc.bijia.me, 46475, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-ZJCM 🇬🇧 = ss, video.111365.xyz, 10082, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-SDCU 🇬🇧 = ss, Jerry.ah4234kxc.bijia.me, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-ZJCT 🇩🇪 = ss, dx.111365.xyz, 48099, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-ZJCT 🇫🇷 = ss, dx.111365.xyz, 49401, encrypt-method=aes-256-gcm, password=dGVDNVA0V1FKREhneW9ZNk9nWmtFNEp1TVBjMGdMMFo=, tfo=false
-ZJCT 🇬🇧 = ss, dx.111365.xyz, 45595, encrypt-method=aes-256-gcm, password=TXBNUWNwWEVUUE9RTVo0NG1IUGNaU2p4VEZwTDFZcTY=, tfo=false
-BJCU 🇩🇪 = ss, airport.tidc.asia, 5271, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
 
-JSCM 🇺🇸 = ss, 120.199.90.67, 17794, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-ZJCM 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 12125, encrypt-method=aes-128-gcm, password=IAKIOI
-TEST 🇺🇸 = ss, Jerry.zjsdi823.bijia.me, 30372, encrypt-method=aes-256-gcm, password=fAF8cPCzhS
+Test = ss, 9527.888888.wtf, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
 
 [Proxy Group]
-🚀 Manual Selection = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, AHCM 🇯🇵, AHCM2 🇯🇵, SDCU 🇯🇵,SDCU2 🇯🇵, BC 🇯🇵, BC2 🇯🇵, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧, BJCU 🇩🇪
+🚀 Manual Selection = select, 宁波移动 IPv6 🇯🇵, 宁波移动 🇯🇵, 上海联通 🇯🇵, 杭州电信 🇯🇵 备用, 安徽移动 🇯🇵 备用, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用, 宁波移动 IPv6 🇸🇬, 宁波移动 🇸🇬, 东莞移动 IPv6 🇸🇬, 宁波电信 🇸🇬, 江苏移动 🇸🇬 备用, 广东移动 🇸🇬 备用
 
-🇭🇰 HK = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
+🇭🇰 HK = select, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用
 
-🇭🇰 HK 2nd = select, GZCM 🇭🇰, AHCM 🇭🇰, ZJCM 🇭🇰, BC 🇭🇰, BC2 🇭🇰, HKT HY2 🇭🇰
+🇭🇰 HK 2nd = select, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用
 
-🇯🇵 JP = select, ZJCM 🇯🇵, ZJCM2 🇯🇵, AHCM 🇯🇵, AHCM2 🇯🇵, SDCU 🇯🇵,SDCU2 🇯🇵, BC 🇯🇵, BC2 🇯🇵
-🇺🇲 US = select, JSCM 🇺🇸,ZJCM 🇺🇸, TEST 🇺🇸, SDCU 🇫🇷, SDCU 🇩🇪, ZJCM 🇬🇧, SDCU 🇬🇧, ZJCT 🇩🇪, ZJCT 🇫🇷, ZJCT 🇬🇧,BJCU 🇩🇪
-🇸🇬 SG = select, GDCM 🇸🇬, GDCM2 🇸🇬, AHCM 🇸🇬, SDCU 🇸🇬, SDCU2 🇸🇬, BC 🇸🇬, BC2 🇸🇬, OC HY2 🇸🇬
+🇸🇬 SG = select, 宁波移动 IPv6 🇸🇬, 宁波移动 🇸🇬, 东莞移动 IPv6 🇸🇬, 宁波电信 🇸🇬, 江苏移动 🇸🇬 备用, 广东移动 🇸🇬 备用
+🇯🇵 JP = select, 宁波移动 IPv6 🇯🇵, 宁波移动 🇯🇵, 上海联通 🇯🇵, 杭州电信 🇯🇵 备用, 安徽移动 🇯🇵 备用
 
-📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-📹 Youtube = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🎥 Netflix = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🌍 International Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🇨🇳 CN Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-📢 Google = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-Ⓜ️ Microsoft = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🍎 Apple = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
-🎯 Direct = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
+🇺🇲 US = select, Test
+
+🇪🇺 EU = select, Test
+
+📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+📹 Youtube = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+🎥 Netflix = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+🌍 International Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+🇨🇳 CN Media = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+📢 Google = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+Ⓜ️ Microsoft = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+🍎 Apple = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
+🎯 Direct = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
 🛑 ADs = select,REJECT,DIRECT
 🍃 Apps = select,REJECT,DIRECT
-🐟 TheRest = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🚀 Manual Selection,DIRECT
+🐟 TheRest = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 Direct,update-interval=86400
@@ -108,5 +95,8 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFW
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 Direct,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 Direct,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 Direct,update-interval=86400
+DOMAIN,license.sublimehq.com,REJECT
 GEOIP,CN,🎯 Direct
 FINAL,🐟 TheRest
+
+
