@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 宁波电信 🇯🇵, server: go.yyds.rest, port: 47678, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 宁波移动 🇯🇵, server: dd.yyds.rest, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 宁波移动 IPv6 🇯🇵, server: 2409:8c28:2481:6:0:1:0:96, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 上海联通 🇯🇵, server: rdgfe.vxzjv.xyz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
@@ -21,14 +22,15 @@ proxies:
   - {name: 🇨🇳 宁波移动 🇸🇬, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 宁波电信 🇸🇬, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
   - {name: 🇨🇳 江苏移动 🇸🇬 备用, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 广东移动 🇸🇬 备用, server: 9527.888888.wtf, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: Test, server: 9527.888888.wtf, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇨🇳 广东移动 🇸🇬 备用, server: sfneran.vxzjv.xyz, port: 51444, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: Test, server: nnertn.vxzjv.xyz, port: 11675, type: ss, cipher: aes-256-gcm, password: NnpMb1JyeXNVUGFJWDhwN2VzelZ4bHloZlh1V01zakQ}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -53,6 +55,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -77,6 +80,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -100,6 +104,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -123,6 +128,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -146,6 +152,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -170,6 +177,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -210,6 +218,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 宁波电信 🇯🇵
       - 🇨🇳 宁波移动 🇯🇵
       - 🇨🇳 宁波移动 IPv6 🇯🇵
       - 🇨🇳 上海联通 🇯🇵
@@ -599,7 +608,6 @@ rules:
   - DOMAIN-SUFFIX,rtbasia.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sanya1.com,🛑 全球拦截
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
@@ -667,6 +675,7 @@ rules:
   - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
@@ -700,7 +709,6 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -2237,6 +2245,7 @@ rules:
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,iwara.tv,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2335,7 +2344,6 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
   - DOMAIN-KEYWORD,openai,🌍 国外媒体
-  - DOMAIN,gemini.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
   - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
@@ -2694,6 +2702,7 @@ rules:
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.com,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
@@ -3316,6 +3325,7 @@ rules:
   - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
   - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
   - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koyso.com,🎯 全球直连
   - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
   - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
