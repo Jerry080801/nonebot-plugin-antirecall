@@ -5,277 +5,261 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 宁波电信 🇯🇵, server: go.yyds.rest, port: 47678, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波移动 🇯🇵, server: dd.yyds.rest, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波移动 IPv6 🇯🇵, server: 2409:8c28:2481:6:0:1:0:96, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 杭州电信 🇯🇵 备用, server: dx.111365.xyz, port: 47594, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 安徽移动 🇯🇵 备用, server: qqa813.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 东莞移动 🇭🇰, server: dg.yyds.rest, port: 22165, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波移动 IPv6 🇭🇰, server: 2409:8c28:2481:6:0:1:0:96, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 东莞移动 IPv6 🇭🇰, server: 2409:8c54:1841:2008:0:1:0:54a, port: 12346, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波移动 🇭🇰, server: dd.yyds.rest, port: 37546, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 广州移动 🇭🇰 备用, server: whyd.111365.xyz, port: 35664, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 东莞电信IPLC 🇭🇰, server: 183.60.172.14, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 东莞移动 🇸🇬, server: dg.yyds.rest, port: 24515, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波移动 IPv6 🇸🇬, server: 2409:8c28:2481:6:0:1:0:96, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 东莞移动 IPv6 🇸🇬, server: 2409:8c54:1841:2008:0:1:0:54a, port: 38347, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 宁波移动 🇸🇬, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇨🇳 宁波电信 🇸🇬, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇨🇳 江苏移动 🇸🇬 备用, server: video.111365.xyz, port: 14654, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 广东移动 🇸🇬 备用, server: sfneran.vxzjv.xyz, port: 51444, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 东莞电信IPLC 🇸🇬, server: 183.60.172.14, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: Test, server: nnertn.vxzjv.xyz, port: 11675, type: ss, cipher: aes-256-gcm, password: NnpMb1JyeXNVUGFJWDhwN2VzelZ4bHloZlh1V01zakQ}
-  - {name: FRA.1 🇩🇪, server: go.yyds.rest, port: 31044, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: FRA.2 🇩🇪, server: dg.yyds.rest, port: 20147, type: ss, cipher: aes-256-gcm, password: Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY}
-  - {name: PR.1 🇫🇷, server: go.yyds.rest, port: 41706, type: ss, cipher: aes-256-gcm, password: NnpMb1JyeXNVUGFJWDhwN2VzelZ4bHloZlh1V01zakQ}
-  - {name: AMS.1 🇳🇱, server: go.yyds.rest, port: 35352, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: PHO 🇺🇸, server: go.yyds.rest, port: 33051, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: DAL 🇺🇸, server: dd.yyds.rest, port: 30087, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: SEA 🇺🇸, server: dd.yyds.rest, port: 39571, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: NYC 🇺🇸, server: dd.yyds.rest, port: 23950, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: TYO 🇯🇵, server: dd.yyds.rest, port: 23950, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇯🇵 JP JSCT, server: 180.103.101.4, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCT, server: go.yyds.rest, port: 47678, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCM, server: dd.yyds.rest, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP SHCM BC, server: qqa813.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP AHCM BC, server: bqq915.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCT BC, server: go.yyds.rest, port: 43055, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇰🇷 KR JSCT, server: 180.103.101.4, port: 49733, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇰🇷 KR JSCM, server: 36.150.8.156, port: 49733, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇨🇳 TW JSCT, server: 180.103.101.4, port: 55292, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK JSCT, server: 180.103.101.4, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK ZJCT, server: go.yyds.rest, port: 38849, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK ZJCM, server: dd.yyds.rest, port: 37546, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK DGCM, server: dg.yyds.rest, port: 22165, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG JSCT, server: 180.103.101.4, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG ZJCT, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇸🇬 SG ZJCM, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
+  - {name: 🇸🇬 SG DGCM, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇺🇸 US LAX ZJCT, server: go.yyds.rest, port: 35241, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP TYO ZJCT, server: dd.yyds.rest, port: 23950, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: NL AMS ZJCT, server: go.yyds.rest, port: 35352, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇺🇸 US PHO ZJCT, server: go.yyds.rest, port: 33051, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇺🇸 US SEA ZJCT, server: dd.yyds.rest, port: 39571, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US NYC ZJCT, server: dd.yyds.rest, port: 23950, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: Test, server: go.yyds.rest, port: 35241, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -298,35 +282,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 宁波电信 🇯🇵
-      - 🇨🇳 宁波移动 🇯🇵
-      - 🇨🇳 宁波移动 IPv6 🇯🇵
-      - 🇨🇳 杭州电信 🇯🇵 备用
-      - 安徽移动 🇯🇵 备用
-      - 东莞移动 🇭🇰
-      - 🇨🇳 宁波移动 IPv6 🇭🇰
-      - 东莞移动 IPv6 🇭🇰
-      - 🇨🇳 宁波移动 🇭🇰
-      - 🇨🇳 广州移动 🇭🇰 备用
-      - 东莞电信IPLC 🇭🇰
-      - 东莞移动 🇸🇬
-      - 🇨🇳 宁波移动 IPv6 🇸🇬
-      - 东莞移动 IPv6 🇸🇬
-      - 🇨🇳 宁波移动 🇸🇬
-      - 🇨🇳 宁波电信 🇸🇬
-      - 🇨🇳 江苏移动 🇸🇬 备用
-      - 广东移动 🇸🇬 备用
-      - 东莞电信IPLC 🇸🇬
+      - 🇯🇵 JP JSCT
+      - 🇯🇵 JP ZJCT
+      - 🇯🇵 JP ZJCM
+      - 🇯🇵 JP ZJCM IPV6
+      - 🇯🇵 JP SHCM BC
+      - 🇯🇵 JP AHCM BC
+      - 🇯🇵 JP ZJCT BC
+      - 🇰🇷 KR JSCT
+      - 🇰🇷 KR JSCM
+      - 🇨🇳 TW JSCT
+      - 🇭🇰 HK JSCT
+      - 🇭🇰 HK ZJCT
+      - 🇭🇰 HK ZJCM
+      - 🇭🇰 HK ZJCM IPV6
+      - 🇭🇰 HK DGCM
+      - 🇸🇬 SG JSCT
+      - 🇸🇬 SG ZJCT
+      - 🇸🇬 SG ZJCM
+      - 🇸🇬 SG ZJCM IPV6
+      - 🇸🇬 SG DGCM
+      - 🇺🇸 US LAX ZJCT
+      - 🇯🇵 JP TYO ZJCT
+      - NL AMS ZJCT
+      - 🇺🇸 US PHO ZJCT
+      - 🇺🇸 US SEA ZJCT
+      - 🇺🇸 US NYC ZJCT
       - Test
-      - FRA.1 🇩🇪
-      - FRA.2 🇩🇪
-      - PR.1 🇫🇷
-      - AMS.1 🇳🇱
-      - PHO 🇺🇸
-      - DAL 🇺🇸
-      - SEA 🇺🇸
-      - NYC 🇺🇸
-      - TYO 🇯🇵
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3778,6 +3760,5 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
- - IP-CIDR,172.3.0.0/12,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
