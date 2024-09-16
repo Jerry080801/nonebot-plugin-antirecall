@@ -24,60 +24,67 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-宁波电信 🇯🇵 = ss, go.yyds.rest, 47678, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波移动 🇯🇵 = ss, dd.yyds.rest, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波移动 IPv6 🇯🇵 = ss, 2409:8c28:2481:6:0:1:0:96, 10111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-杭州电信 🇯🇵 备用 = ss, go.yyds.rest, 43055, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-安徽移动 🇯🇵 备用 = ss,qqa813.qingqiu.buzz,20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP JSCT = ss, 180.103.101.4, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP ZJCT = ss, go.yyds.rest, 47678, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP ZJCM = ss, dd.yyds.rest, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 10111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP SHCM BC = ss, qqa813.qingqiu.buzz,20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP AHCM BC = ss, bqq915.qingqiu.buzz,20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+JP ZJCT BC = ss, go.yyds.rest, 43055, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-JSCT 🇭🇰 = ss, 180.103.101.4, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波电信 🇭🇰 = ss, go.yyds.rest, 38849, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-东莞移动 🇭🇰 = ss, dg.yyds.rest, 22165, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波移动 IPv6 🇭🇰 = ss, 2409:8c28:2481:6:0:1:0:96, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-东莞移动 IPv6 🇭🇰 = ss, 2409:8c54:1841:2008:0:1:0:54a, 12346, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波移动 🇭🇰 = ss,dd.yyds.rest, 37546, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-广州移动 🇭🇰 备用 = ss, whyd.111365.xyz, 35664, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-东莞电信IPLC 🇭🇰 = ss, 183.60.172.14, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-JSCT 🇸🇬 = ss, 180.103.101.4, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-东莞移动 🇸🇬 = ss, dg.yyds.rest, 24515, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波移动 IPv6 🇸🇬 = ss, 2409:8c28:2481:6:0:1:0:96, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-东莞移动 IPv6 🇸🇬 = ss, 2409:8c54:1841:2008:0:1:0:54a, 38347, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-宁波移动 🇸🇬 = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-宁波电信 🇸🇬 = ss, go.yyds.rest, 34030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-江苏移动 🇸🇬 备用 = ss, video.111365.xyz, 14654, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-广东移动 🇸🇬 备用 = ss, sfneran.vxzjv.xyz, 51444, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+KR JSCT = ss, 180.103.101.4, 49733, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+KR JSCM = ss, 36.150.27.88, 49733, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-东莞电信IPLC 🇸🇬 = ss, 183.60.172.14, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+TW JSCT = ss, 180.103.101.4, 55292, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+TW SZCT = ss, 14.29.247.161, 55292, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
+
+HK JSCT = ss, 180.103.101.4, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK SZCT = ss, 14.29.247.161, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK ZJCT = ss, go.yyds.rest, 38849, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK ZJCM = ss,dd.yyds.rest, 37546, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK DGCM = ss, dg.yyds.rest, 22165, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+SG JSCT = ss, 180.103.101.4, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SG SZCT = ss, 14.29.247.161, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SG ZJCT = ss, go.yyds.rest, 34030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+SG ZJCM = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+SG ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
+SG DGCM = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+US LAX ZJCT = ss, go.yyds.rest, 35241, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+
+JP TYO ZJCT = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
+NL AMS ZJCT = ss, go.yyds.rest, 35352, encrypt-method=aes-128-cfb, password=shadowsocks
+US PHO ZJCT = ss, go.yyds.rest, 33051, encrypt-method=aes-128-cfb, password=shadowsocks
+US SEA ZJCT = ss, dd.yyds.rest, 39571, encrypt-method=aes-128-gcm, password=shadowsocks
+US NYC ZJCT = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
 
 Test = ss, go.yyds.rest, 35241, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
-FRA.1 🇩🇪 = ss, go.yyds.rest, 31044, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-FRA.2 🇩🇪 = ss, dg.yyds.rest, 20147, encrypt-method=aes-256-gcm, password=Vm1RV3paMHBhN1I2QnN5aTZnS3dIWEhoSWpKNGE1NkY=, tfo=false
-PR.1 🇫🇷 = ss, go.yyds.rest, 41706, encrypt-method=aes-256-gcm, password=NnpMb1JyeXNVUGFJWDhwN2VzelZ4bHloZlh1V01zakQ=
-AMS.1 🇳🇱 = ss, go.yyds.rest, 35352, encrypt-method=aes-128-cfb, password=shadowsocks
-
-PHO 🇺🇸 = ss, go.yyds.rest, 33051, encrypt-method=aes-128-cfb, password=shadowsocks
-DAL 🇺🇸 = ss, dd.yyds.rest, 30087, encrypt-method=aes-128-gcm, password=shadowsocks
-SEA 🇺🇸 = ss, dd.yyds.rest, 39571, encrypt-method=aes-128-gcm, password=shadowsocks
-NYC 🇺🇸 = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
-TYO 🇯🇵 = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
 
 [Proxy Group]
-🚀 Manual Selection = select, 宁波电信 🇯🇵, 宁波移动 IPv6 🇯🇵, 宁波移动 🇯🇵, 杭州电信 🇯🇵 备用, 安徽移动 🇯🇵 备用, TYO 🇯🇵, JSCT 🇭🇰, 宁波电信 🇭🇰, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用, 宁波移动 IPv6 🇸🇬, 宁波移动 🇸🇬, 东莞移动 IPv6 🇸🇬, 东莞移动 🇸🇬, 宁波电信 🇸🇬, 江苏移动 🇸🇬 备用, 广东移动 🇸🇬 备用, Test, FRA.1 🇩🇪, FRA.2 🇩🇪, PR.1 🇫🇷, AMS.1 🇳🇱, PHO 🇺🇸, DAL 🇺🇸, SEA 🇺🇸, NYC 🇺🇸,JSCT 🇸🇬
+🚀 Manual Selection = select, JP JSCT, JP ZJCT, JP ZJCM, JP ZJCM IPV6,JP SHCM BC,JP AHCM BC, JP ZJCT BC, KR JSCT, KR JSCM, TW JSCT, TW SZCT, HK JSCT, HK SZCT, HK ZJCT, HK ZJCM, HK ZJCM IPV6, HK DGCM, SG JSCT, SG SZCT, SG ZJCT, SG ZJCM, SG ZJCM IPV6, SG DGCM, US LAX ZJCT, JP TYO ZJCT, NL AMS ZJCT, US PHO ZJCT, US SEA ZJCT, US NYC ZJCT, Test
 
-🇭🇰 HK = select, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用
+🇭🇰 HK = select, HK JSCT, HK SZCT, HK ZJCT, HK ZJCM, HK ZJCM IPV6, HK DGCM
 
-🇭🇰 HK 2nd = select, 宁波移动 IPv6 🇭🇰, 宁波移动 🇭🇰, 东莞移动 IPv6 🇭🇰, 东莞移动 🇭🇰, 广州移动 🇭🇰 备用
+🇭🇰 HK 2nd = select, HK JSCT, HK SZCT, HK ZJCT, HK ZJCM, HK ZJCM IPV6, HK DGCM
 
-🇸🇬 SG = select, 宁波移动 IPv6 🇸🇬, 宁波移动 🇸🇬, 东莞移动 IPv6 🇸🇬, 东莞移动 🇸🇬, 宁波电信 🇸🇬, 江苏移动 🇸🇬 备用, 广东移动 🇸🇬 备用,JSCT 🇸🇬
+🇸🇬 SG = select, SG JSCT, SG SZCT, SG ZJCT, SG ZJCM, SG ZJCM IPV6, SG DGCM
 
-🇯🇵 JP = select, 宁波电信 🇯🇵, 宁波移动 IPv6 🇯🇵, 宁波移动 🇯🇵, 杭州电信 🇯🇵 备用, 安徽移动 🇯🇵 备用, TYO 🇯🇵
+🇰🇷 KR = select, KR JSCT, KR JSCM
 
-🇺🇲 US = select, Test, PHO 🇺🇸, DAL 🇺🇸, SEA 🇺🇸, NYC 🇺🇸
+🇹🇼 TW = select, TW JSCT, TW SZCT
 
-🇪🇺 EU = select, Test, FRA.1 🇩🇪, FRA.2 🇩🇪, PR.1 🇫🇷, AMS.1 🇳🇱 
+🇯🇵 JP = select, JP JSCT, JP ZJCT, JP ZJCM, JP ZJCM IPV6,JP SHCM BC,JP AHCM BC, JP ZJCT BC
+
+🇺🇲 US = select, Test, US LAX ZJCT
+
+🇪🇺 EU = select, Test, NL AMS ZJCT
+
+⏬ Download = select, JP TYO ZJCT, NL AMS ZJCT, US PHO ZJCT, US SEA ZJCT, US NYC ZJCT
 
 📲 TG = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
 💬 ChatGPT = select,🇭🇰 HK, 🇭🇰 HK 2nd, 🇸🇬 SG,🇯🇵 JP,🇺🇲 US,🇪🇺 EU,🚀 Manual Selection,DIRECT
