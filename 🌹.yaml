@@ -5,23 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP JSCT, server: 180.103.101.4, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇯🇵 JP ZJCT, server: go.yyds.rest, port: 47678, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇯🇵 JP ZJCM, server: dd.yyds.rest, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP JSCT, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCT, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCM, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇯🇵 JP ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 10111, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇯🇵 JP SHCM BC, server: qqa813.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇯🇵 JP AHCM BC, server: bqq915.qingqiu.buzz, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇯🇵 JP ZJCT BC, server: go.yyds.rest, port: 43055, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP SHCM BC, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP AHCM BC, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCT BC, server: 221.181.185.182, port: 20020, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇰🇷 KR JSCT, server: 180.103.101.4, port: 49733, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇰🇷 KR JSCM, server: 36.150.27.88, port: 49733, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 TW JSCT, server: 180.103.101.4, port: 55292, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇨🇳 TW SZCT, server: 14.29.247.161, port: 55292, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇭🇰 HK JSCT, server: 180.103.101.4, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇭🇰 HK SZCT, server: 14.29.247.161, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇭🇰 HK ZJCT, server: go.yyds.rest, port: 38849, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇭🇰 HK ZJCM, server: dd.yyds.rest, port: 37546, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK JSCT, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK SZCT, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK ZJCT, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK ZJCM, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇭🇰 HK ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇭🇰 HK DGCM, server: dg.yyds.rest, port: 22165, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇭🇰 HK DGCM, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇸🇬 SG JSCT, server: 180.103.101.4, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇸🇬 SG SZCT, server: 14.29.247.161, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇸🇬 SG ZJCT, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
