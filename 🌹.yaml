@@ -22,12 +22,12 @@ proxies:
   - {name: 🇭🇰 HK ZJCM, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇭🇰 HK ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇭🇰 HK DGCM, server: 221.181.185.182, port: 12345, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇸🇬 SG JSCT, server: 180.103.101.4, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇸🇬 SG SZCT, server: 14.29.247.161, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
-  - {name: 🇸🇬 SG ZJCT, server: go.yyds.rest, port: 34030, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇸🇬 SG ZJCM, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG JSCT, server: 221.181.185.182, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG SZCT, server: 221.181.185.182, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG ZJCT, server: 221.181.185.182, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG ZJCM, server: 221.181.185.182, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇸🇬 SG ZJCM IPV6, server: 2409:8c28:2481:6:0:1:0:96, port: 17267, type: ss, cipher: aes-128-gcm, password: IAKIOI}
-  - {name: 🇸🇬 SG DGCM, server: dd.yyds.rest, port: 32065, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇸🇬 SG DGCM, server: 221.181.185.182, port: 30030, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇺🇸 US LAX ZJCT, server: go.yyds.rest, port: 35241, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇯🇵 JP TYO ZJCT, server: dd.yyds.rest, port: 23950, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇳🇱 NL AMS ZJCT, server: go.yyds.rest, port: 35352, type: ss, cipher: aes-128-cfb, password: shadowsocks}
