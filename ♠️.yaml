@@ -24,7 +24,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-HK CSCM = ss, ee.ednovas.cloud, 19916, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK CSCM =  vmess, ee.ednovas.cloud, 22140, username=0893e5ce-2fe0-446d-9be4-190a77ce7c58, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 Test = vmess, ee.ednovas.cloud, 22140, username=0893e5ce-2fe0-446d-9be4-190a77ce7c58, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
