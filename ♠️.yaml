@@ -24,42 +24,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 
-JP JSCT = ss, 180.103.101.4, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP ZJCT = ss, go.yyds.rest, 47678, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP ZJCM = ss, dd.yyds.rest, 20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 10111, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP SHCM BC = ss, qqa813.qingqiu.buzz,20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP AHCM BC = ss, bqq915.qingqiu.buzz,20020, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-JP ZJCT BC = ss, go.yyds.rest, 43055, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-
-KR JSCT = ss, 180.103.101.4, 49733, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-KR JSCM = ss, 36.150.8.156, 49733, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-TW JSCT = ss, 180.103.101.4, 55292, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-
-HK JSCT = ss, 180.103.101.4, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HK ZJCT = ss, go.yyds.rest, 38849, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HK ZJCM = ss,dd.yyds.rest, 37546, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HK ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 12345, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-HK DGCM = ss, dg.yyds.rest, 22165, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-SG JSCT = ss, 180.103.101.4, 30030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SG ZJCT = ss, go.yyds.rest, 34030, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SG ZJCM = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-SG ZJCM IPV6 = ss, 2409:8c28:2481:6:0:1:0:96, 17267, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false
-SG DGCM = ss,dd.yyds.rest, 32065, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-US LAX ZJCT = ss, go.yyds.rest, 35241, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
-JP TYO ZJCT = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
-NL AMS ZJCT = ss, go.yyds.rest, 35352, encrypt-method=aes-128-cfb, password=shadowsocks
-US PHO ZJCT = ss, go.yyds.rest, 33051, encrypt-method=aes-128-cfb, password=shadowsocks
-US SEA ZJCT = ss, dd.yyds.rest, 39571, encrypt-method=aes-128-gcm, password=shadowsocks
-US NYC ZJCT = ss, dd.yyds.rest, 23950, encrypt-method=aes-128-gcm, password=shadowsocks
-
-Test = ss, go.yyds.rest, 35241, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
+HK CSCM = ss, ee.ednovas.cloud, 19916, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
 
 
 [Proxy Group]
