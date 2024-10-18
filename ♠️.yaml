@@ -25,7 +25,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 DIRECT = direct
 
 HK CSCM = ss, ee.ednovas.cloud, 19916, encrypt-method=aes-128-gcm, password=IAKIOI, tfo=false, udp-relay=true
-
+Test = vmess, ee.ednovas.cloud, 22140, username=0893e5ce-2fe0-446d-9be4-190a77ce7c58, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
 🚀 Manual Selection = select, JP JSCT, JP ZJCT, JP ZJCM, JP ZJCM IPV6,JP SHCM BC,JP AHCM BC, JP ZJCT BC, KR JSCT, KR JSCM, TW JSCT, HK JSCT, HK ZJCT, HK ZJCM, HK ZJCM IPV6, HK DGCM, SG JSCT, SG ZJCT, SG ZJCM, SG ZJCM IPV6, SG DGCM, US LAX ZJCT, JP TYO ZJCT, NL AMS ZJCT, US PHO ZJCT, US SEA ZJCT, US NYC ZJCT, Test
