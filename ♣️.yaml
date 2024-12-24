@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇯🇵 JP ZJ2CT, server: go.yyds.rest, port: 50997, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
   - {name: 🇺🇸 USA, server: sh.mkxk.dj, port: 21409, type: ss, cipher: aes-128-gcm, password: Euler, udp: true}
-  - {name: 🇯🇵 JP ZJCT, server: ee.ednovas.cloud, port: 19916, type: ss, cipher: aes-128-gcm, password: IAKIOI, udp: true}
+  - {name: 🇯🇵 JP ZJCT, server: ee.ednovas.cloud, port: 19916, type: ss, cipher: aes-128-gcm, password: Euler, udp: true}
 
 proxy-groups:
   - name: 🚀 节点选择
